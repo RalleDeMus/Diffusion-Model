@@ -1,0 +1,168 @@
+Image shape: torch.Size([1, 28, 28])
+Epoch 0, Loss: 0.29937337222099303
+Epoch 5, Loss: 0.07335335935751597
+Epoch 10, Loss: 0.048393599164485934
+Epoch 15, Loss: 0.03782745004296303
+Epoch 20, Loss: 0.0330849201242129
+Epoch 25, Loss: 0.030067363015810648
+Epoch 30, Loss: 0.028685468327999116
+Epoch 35, Loss: 0.026672562475999195
+Epoch 40, Loss: 0.027051799016694227
+Epoch 45, Loss: 0.02562473569214344
+Epoch 50, Loss: 0.024686645044883094
+Epoch 55, Loss: 0.024399158916870754
+Epoch 60, Loss: 0.023338792655865352
+Epoch 65, Loss: 0.023248818819721538
+Epoch 70, Loss: 0.022155888472000757
+Epoch 75, Loss: 0.021656766389807066
+Epoch 80, Loss: 0.021178686412175497
+Epoch 85, Loss: 0.0215214796880881
+Epoch 90, Loss: 0.021117209034164745
+Epoch 95, Loss: 0.020625741170843443
+Epoch 100, Loss: 0.020257215093572936
+Epoch 105, Loss: 0.020048391911387443
+Epoch 110, Loss: 0.019792884476979574
+Epoch 115, Loss: 0.019958015153805415
+Epoch 120, Loss: 0.019358708052833875
+Epoch 125, Loss: 0.019474055667718253
+Epoch 130, Loss: 0.018812395336230595
+Epoch 135, Loss: 0.01896641869644324
+Epoch 140, Loss: 0.01880746812025706
+Epoch 145, Loss: 0.01870427755812804
+Epoch 150, Loss: 0.018557248269518215
+Epoch 155, Loss: 0.018276547952493033
+Epoch 160, Loss: 0.01798014171719551
+Epoch 165, Loss: 0.01841848300000032
+Epoch 170, Loss: 0.017800257867574693
+Epoch 175, Loss: 0.017860262405872344
+Epoch 180, Loss: 0.017896249934037527
+Epoch 185, Loss: 0.01754488169600566
+Epoch 190, Loss: 0.017871010882655778
+Epoch 195, Loss: 0.017733523297309876
+Epoch 200, Loss: 0.017811818124850592
+Epoch 205, Loss: 0.01770942777991295
+Epoch 210, Loss: 0.017588892312844596
+Epoch 215, Loss: 0.017296663079659144
+Epoch 220, Loss: 0.017374748688439526
+Epoch 225, Loss: 0.017234245919187863
+Epoch 230, Loss: 0.016971397319436074
+Epoch 235, Loss: 0.01693881122569243
+Epoch 240, Loss: 0.016894345501065253
+Epoch 245, Loss: 0.017011633760730425
+Epoch 250, Loss: 0.01701548137764136
+Epoch 255, Loss: 0.017106618559360503
+Epoch 260, Loss: 0.016960935868819554
+Epoch 265, Loss: 0.016834042810897034
+Epoch 270, Loss: 0.01692175728281339
+Epoch 275, Loss: 0.016782831850647925
+Epoch 280, Loss: 0.017010157082478206
+Epoch 285, Loss: 0.01654727874100208
+Epoch 290, Loss: 0.016519493567943574
+Epoch 295, Loss: 0.01643414968351523
+Epoch 300, Loss: 0.016636829095582166
+Epoch 305, Loss: 0.01652664534052213
+Epoch 310, Loss: 0.01657369440992673
+Epoch 315, Loss: 0.01632338857650757
+Epoch 320, Loss: 0.01625666992763678
+Epoch 325, Loss: 0.01646884542008241
+Epoch 330, Loss: 0.016201559741795064
+Epoch 335, Loss: 0.01641771915256977
+Epoch 340, Loss: 0.01617843745003144
+Epoch 345, Loss: 0.016229527263343334
+Epoch 350, Loss: 0.016216082578897475
+Epoch 355, Loss: 0.016205188562969368
+Epoch 360, Loss: 0.016253602958718937
+Epoch 365, Loss: 0.01597245587706566
+Epoch 370, Loss: 0.016118933392564455
+Epoch 375, Loss: 0.016241523543000222
+Epoch 380, Loss: 0.015925833360354105
+Epoch 385, Loss: 0.01617738695045312
+Epoch 390, Loss: 0.01611012934744358
+Epoch 395, Loss: 0.01591889605373144
+Epoch 400, Loss: 0.015814757550756137
+Epoch 405, Loss: 0.015900788975755375
+Epoch 410, Loss: 0.01607216365834077
+Epoch 415, Loss: 0.015900518917044002
+Epoch 420, Loss: 0.01602872876673937
+Epoch 425, Loss: 0.015744945454597474
+Epoch 430, Loss: 0.015798104945818583
+Epoch 435, Loss: 0.01573973826467991
+Epoch 440, Loss: 0.015732681247591973
+Epoch 445, Loss: 0.015788458746671678
+Epoch 450, Loss: 0.01563135698537032
+Epoch 455, Loss: 0.01570175904929638
+Epoch 460, Loss: 0.0157931460271279
+Epoch 465, Loss: 0.015862387463450433
+Epoch 470, Loss: 0.015645732718706132
+Epoch 475, Loss: 0.015592655377089978
+Epoch 480, Loss: 0.015720714575052263
+Epoch 485, Loss: 0.015829706058402858
+Epoch 490, Loss: 0.016078857011099658
+Epoch 495, Loss: 0.015620373490452767
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23153098: <mnist_training> in cluster <dcc> Done
+
+Job <mnist_training> was submitted from host <hpclogin1> by user <s204427> in cluster <dcc> at Tue Nov 12 15:42:05 2024
+Job was executed on host(s) <4*n-62-18-11>, in queue <gpua100>, as user <s204427> in cluster <dcc> at Tue Nov 12 16:26:53 2024
+</zhome/1a/a/156609> was used as the home directory.
+</zhome/1a/a/156609/project/path> was used as the working directory.
+Started at Tue Nov 12 16:26:53 2024
+Terminated at Tue Nov 12 17:27:22 2024
+Results reported at Tue Nov 12 17:27:22 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# mnist_job.sh
+#!/bin/bash
+#BSUB -J mnist_training           # Job name
+#BSUB -q gpua100                   # Queue name for Tesla A10 GPUs
+#BSUB -gpu "num=1"                # Request 1 GPU in exclusive mode
+#BSUB -n 4                        # Request 4 CPU cores (required)
+#BSUB -R "span[hosts=1]"          # Ensure resources are on a single node
+#BSUB -W 48:00                    # Walltime (1 hour)
+#BSUB -R "rusage[mem=4096]"       # Request 4GB of system memory
+#BSUB -o output_%J.log            # Output file
+#BSUB -e error_%J.log             # Error file
+
+# Load necessary modules
+module load python3/3.10.12
+module load cuda/12.1
+
+# Set W&B API key (replace with your actual key)
+export WANDB_API_KEY="6ecda4c80f57815b4ff4780014d596e19617454c"
+
+# Activate virtual environment
+source /zhome/1a/a/156609/project/path/.venv/bin/activate
+
+# Run the PyTorch training script
+python3 model1Cifar.py
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3580.00 sec.
+    Max Memory :                                 786 MB
+    Average Memory :                             758.11 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15598.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                26
+    Run time :                                   3629 sec.
+    Turnaround time :                            6317 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <error_23153098.log> for stderr output of this job.
+

@@ -1,0 +1,45 @@
+{
+  "os": "Linux-6.1.112-1.el9.elrepo.x86_64-x86_64-with-glibc2.34",
+  "python": "3.10.12",
+  "startedAt": "2024-11-11T13:52:09.339441Z",
+  "program": "/zhome/1a/a/156609/project/path/Diffusion/ddpm.py",
+  "codePath": "ddpm.py",
+  "email": "julius.ellegaard.gronager@gmail.com",
+  "root": "/zhome/1a/a/156609/project/path/Diffusion",
+  "host": "n-62-12-19",
+  "username": "s204427",
+  "executable": "/zhome/1a/a/156609/project/path/.venv/bin/python",
+  "codePathLocal": "ddpm.py",
+  "cpu_count": 32,
+  "cpu_count_logical": 32,
+  "gpu": "NVIDIA A100-PCIE-40GB",
+  "gpu_count": 2,
+  "disk": {
+    "/": {
+      "total": "76817485824",
+      "used": "5575573504"
+    }
+  },
+  "memory": {
+    "total": "810715242496"
+  },
+  "cpu": {
+    "count": 32,
+    "countLogical": 32
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA A100-PCIE-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    },
+    {
+      "name": "NVIDIA A100-PCIE-40GB",
+      "memoryTotal": "42949672960",
+      "cudaCores": 6912,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

@@ -1,0 +1,5 @@
+/data/
+/cifar10/
+/.venv/
+/mnist/
+/wandb/

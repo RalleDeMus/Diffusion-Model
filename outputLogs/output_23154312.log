@@ -1,0 +1,269 @@
+Files already downloaded and verified
+Image shape: torch.Size([3, 32, 32])
+Epoch 0, Loss: 0.20089567400455474
+Epoch 5, Loss: 0.05505983046889305
+Epoch 10, Loss: 0.04846749360322952
+Epoch 15, Loss: 0.04550997915744782
+Epoch 20, Loss: 0.042891900973320005
+Epoch 25, Loss: 0.0420667502617836
+Epoch 30, Loss: 0.04041910991191864
+Epoch 35, Loss: 0.04042835023522377
+Epoch 40, Loss: 0.03969740473866463
+Epoch 45, Loss: 0.03880671371459961
+Epoch 50, Loss: 0.03822531453251839
+Epoch 55, Loss: 0.03804406462550163
+Epoch 60, Loss: 0.03760084486722946
+Epoch 65, Loss: 0.03662788996100426
+Epoch 70, Loss: 0.03612968601465225
+Epoch 75, Loss: 0.0364748293530941
+Epoch 80, Loss: 0.036037623451948164
+Epoch 85, Loss: 0.035361893190145495
+Epoch 90, Loss: 0.03525602125048637
+Epoch 95, Loss: 0.03422190250992775
+Epoch 100, Loss: 0.03436222890973091
+Epoch 105, Loss: 0.03354505182743073
+Epoch 110, Loss: 89.75726515625
+Epoch 115, Loss: 15.520285723571778
+Epoch 120, Loss: 546.6826487548828
+Epoch 125, Loss: 200.20878525390626
+Epoch 130, Loss: 144.56718810302735
+Epoch 135, Loss: 14.720843963928223
+Epoch 140, Loss: 10.349101916503907
+Epoch 145, Loss: 3.9273800034332274
+Epoch 150, Loss: 6.33593450592041
+Epoch 155, Loss: 1.571340800971985
+Epoch 160, Loss: 16.307973127746582
+Epoch 165, Loss: 11.595471001586914
+Epoch 170, Loss: 6.6794340702819825
+Epoch 175, Loss: 0.9966813786888122
+Epoch 180, Loss: 0.6729435129928589
+Epoch 185, Loss: 0.34444538783073425
+Epoch 190, Loss: 0.30176621469497683
+Epoch 195, Loss: 0.39082723770141603
+Epoch 200, Loss: 0.23630534729003908
+Epoch 205, Loss: 0.5479611856365204
+Epoch 210, Loss: 0.2696387019252777
+Epoch 215, Loss: 1.2579146657943725
+Epoch 220, Loss: 43.70946409881592
+Epoch 225, Loss: 11.510619671020509
+Epoch 230, Loss: 24.127497832489013
+Epoch 235, Loss: 0.7487156100463868
+Epoch 240, Loss: 0.6744374796199799
+Epoch 245, Loss: 0.5657503970909119
+Epoch 250, Loss: 0.3353612967014313
+Epoch 255, Loss: 0.24335453600406648
+Epoch 260, Loss: 0.22370612854003907
+Epoch 265, Loss: 0.226706476354599
+Epoch 270, Loss: 0.1981320430612564
+Epoch 275, Loss: 0.23324757629871368
+Epoch 280, Loss: 0.20855945299625397
+Epoch 285, Loss: 56.629511274642944
+Epoch 290, Loss: 0.3760730349636078
+Epoch 295, Loss: 0.30148806530952454
+Epoch 300, Loss: 0.6693349490070343
+Epoch 305, Loss: 0.2735203244638443
+Epoch 310, Loss: 0.5835251155281067
+Epoch 315, Loss: 0.3705759960269928
+Epoch 320, Loss: 0.26476929247379305
+Epoch 325, Loss: 0.26668570948600767
+Epoch 330, Loss: 0.223197536444664
+Epoch 335, Loss: 0.2537787988471985
+Epoch 340, Loss: 0.19271186521053313
+Epoch 345, Loss: 0.19320532718658448
+Epoch 350, Loss: 0.17736775225639342
+Epoch 355, Loss: 0.528252298541069
+Epoch 360, Loss: 0.13786082793712615
+Epoch 365, Loss: 0.1077301097202301
+Epoch 370, Loss: 0.09725287408828735
+Epoch 375, Loss: 0.09043784983873367
+Epoch 380, Loss: 0.08123775971174241
+Epoch 385, Loss: 0.07515639793753624
+Epoch 390, Loss: 0.08229226619243622
+Epoch 395, Loss: 0.0740381278014183
+Epoch 400, Loss: 0.1539057809829712
+Epoch 405, Loss: 0.9125495014619828
+Epoch 410, Loss: 0.18693466526508332
+Epoch 415, Loss: 0.19658747357845308
+Epoch 420, Loss: 0.11548199636936188
+Epoch 425, Loss: 0.09930789879560471
+Epoch 430, Loss: 0.08323513054847717
+Epoch 435, Loss: 0.06763401599407196
+Epoch 440, Loss: 0.062171479167938234
+Epoch 445, Loss: 0.058920549762248996
+Epoch 450, Loss: 0.052871503071784974
+Epoch 455, Loss: 0.049445731726884844
+Epoch 460, Loss: 0.06171746340751648
+Epoch 465, Loss: 0.0458387870490551
+Epoch 470, Loss: 0.044351276552677156
+Epoch 475, Loss: 0.04307619807243347
+Epoch 480, Loss: 0.04364611286878586
+Epoch 485, Loss: 0.040928014739751814
+Epoch 490, Loss: 0.040427867399454115
+Epoch 495, Loss: 0.0403353506731987
+Epoch 500, Loss: 0.041385486810207366
+Epoch 505, Loss: 0.04235044081091881
+Epoch 510, Loss: 0.03937951352834702
+Epoch 515, Loss: 1.4090190587139129
+Epoch 520, Loss: 0.14680782974720002
+Epoch 525, Loss: 0.08923943160533905
+Epoch 530, Loss: 0.05999529161453247
+Epoch 535, Loss: 0.047916566479206085
+Epoch 540, Loss: 0.043122040922641755
+Epoch 545, Loss: 0.040803827053308483
+Epoch 550, Loss: 0.04195828321397305
+Epoch 555, Loss: 0.039551939758062364
+Epoch 560, Loss: 0.07685934915661811
+Epoch 565, Loss: 0.04275533701181412
+Epoch 570, Loss: 0.0421112909412384
+Epoch 575, Loss: 0.04013994896769524
+Epoch 580, Loss: 0.04089764402270317
+Epoch 585, Loss: 0.03921985063791275
+Epoch 590, Loss: 0.23552428665161132
+Epoch 595, Loss: 0.20920262972831727
+Epoch 600, Loss: 0.09795060726165772
+Epoch 605, Loss: 0.06646233112931252
+Epoch 610, Loss: 0.05223544761896133
+Epoch 615, Loss: 0.04341680013656616
+Epoch 620, Loss: 0.04061805184721947
+Epoch 625, Loss: 0.04203075107097626
+Epoch 630, Loss: 0.039870819424390795
+Epoch 635, Loss: 0.03914636219501495
+Epoch 640, Loss: 0.03838675505042076
+Epoch 645, Loss: 0.03829259224295616
+Epoch 650, Loss: 0.04125270101070404
+Epoch 655, Loss: 0.03856975788831711
+Epoch 660, Loss: 0.03799511552333832
+Epoch 665, Loss: 0.03731911571979523
+Epoch 670, Loss: 0.03885675377249718
+Epoch 675, Loss: 0.05076554548144341
+Epoch 680, Loss: 0.0385681531894207
+Epoch 685, Loss: 0.03741129236936569
+Epoch 690, Loss: 0.03785779966235161
+Epoch 695, Loss: 0.0365819841504097
+Epoch 700, Loss: 0.03735219539523125
+Epoch 705, Loss: 0.03641895446538925
+Epoch 710, Loss: 0.03634213510751724
+Epoch 715, Loss: 0.22904492415428163
+Epoch 720, Loss: 0.12050966210603714
+Epoch 725, Loss: 0.09341004224777222
+Epoch 730, Loss: 0.07410474872350693
+Epoch 735, Loss: 0.06349286383867264
+Epoch 740, Loss: 0.05541944445490837
+Epoch 745, Loss: 0.04866947924494743
+Epoch 750, Loss: 0.042961641354560855
+Epoch 755, Loss: 0.0397900509083271
+Epoch 760, Loss: 0.03825129133224487
+Epoch 765, Loss: 0.03695707877278328
+Epoch 770, Loss: 0.0365695679295063
+Epoch 775, Loss: 0.036206682554483414
+Epoch 780, Loss: 0.03588046525835991
+Epoch 785, Loss: 0.036482905107736587
+Epoch 790, Loss: 0.03567214165627956
+Epoch 795, Loss: 0.03891153477430344
+Epoch 800, Loss: 0.03602461221456528
+Epoch 805, Loss: 0.036154954817295075
+Epoch 810, Loss: 0.035920391858816146
+Epoch 815, Loss: 0.036799905606508254
+Epoch 820, Loss: 0.03571403928995132
+Epoch 825, Loss: 0.035770875931978224
+Epoch 830, Loss: 1.961667668952942
+Epoch 835, Loss: 6.325789095916748
+Epoch 840, Loss: 3.825585774536133
+Epoch 845, Loss: 1.0317410094642638
+Epoch 850, Loss: 1.5397074167633056
+Epoch 855, Loss: 0.33716061849594114
+Epoch 860, Loss: 1.16432173828125
+Epoch 865, Loss: 0.27830078645706174
+Epoch 870, Loss: 0.22070657855033873
+Epoch 875, Loss: 0.49556318032264707
+Epoch 880, Loss: 0.12894543110847473
+Epoch 885, Loss: 40.53511100141525
+Epoch 890, Loss: 6.003661704788208
+Epoch 895, Loss: 0.4573086438083649
+Epoch 900, Loss: 0.24654033805847167
+Epoch 905, Loss: 0.19259464937210083
+Epoch 910, Loss: 0.39195885155677795
+Epoch 915, Loss: 0.18119464015483855
+Epoch 920, Loss: 0.15220434838294983
+Epoch 925, Loss: 0.10468268279314041
+Epoch 930, Loss: 0.06594512092828751
+Epoch 935, Loss: 0.05241686464071274
+Epoch 940, Loss: 0.061746654640436174
+Epoch 945, Loss: 0.04529544067621231
+Epoch 950, Loss: 0.04109288284182549
+Epoch 955, Loss: 0.03839312435388565
+Epoch 960, Loss: 0.037714089040756224
+Epoch 965, Loss: 0.036051785061359407
+Epoch 970, Loss: 0.036310147054195406
+Epoch 975, Loss: 0.03592190276265144
+Epoch 980, Loss: 0.035618736122846606
+Epoch 985, Loss: 0.035649390403032305
+Epoch 990, Loss: 0.035882698985934255
+Epoch 995, Loss: 0.035751560478806496
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23154312: <mnist_training> in cluster <dcc> Done
+
+Job <mnist_training> was submitted from host <hpclogin1> by user <s204427> in cluster <dcc> at Tue Nov 12 21:25:02 2024
+Job was executed on host(s) <4*n-62-12-22>, in queue <gpua100>, as user <s204427> in cluster <dcc> at Tue Nov 12 23:14:03 2024
+</zhome/1a/a/156609> was used as the home directory.
+</zhome/1a/a/156609/project/path> was used as the working directory.
+Started at Tue Nov 12 23:14:03 2024
+Terminated at Wed Nov 13 07:32:45 2024
+Results reported at Wed Nov 13 07:32:45 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# mnist_job.sh
+#!/bin/bash
+#BSUB -J mnist_training           # Job name
+#BSUB -q gpua100                   # Queue name for Tesla A10 GPUs
+#BSUB -gpu "num=1"                # Request 1 GPU in exclusive mode
+#BSUB -n 4                        # Request 4 CPU cores (required)
+#BSUB -R "span[hosts=1]"          # Ensure resources are on a single node
+#BSUB -W 48:00                    # Walltime (1 hour)
+#BSUB -R "rusage[mem=4096]"       # Request 4GB of system memory
+#BSUB -o output_%J.log            # Output file
+#BSUB -e error_%J.log             # Error file
+
+# Load necessary modules
+module load python3/3.10.12
+module load cuda/12.1
+
+# Set W&B API key (replace with your actual key)
+export WANDB_API_KEY="6ecda4c80f57815b4ff4780014d596e19617454c"
+
+# Activate virtual environment
+source /zhome/1a/a/156609/project/path/.venv/bin/activate
+
+# Run the PyTorch training script
+python3 model1Cifar10.py
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   29970.00 sec.
+    Max Memory :                                 1158 MB
+    Average Memory :                             1123.11 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15226.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                26
+    Run time :                                   29922 sec.
+    Turnaround time :                            36463 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <error_23154312.log> for stderr output of this job.
+
