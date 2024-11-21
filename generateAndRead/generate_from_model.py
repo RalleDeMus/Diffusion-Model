@@ -15,7 +15,7 @@ from models.attention_model.attention_model import ScoreNetwork
 
 # Load the saved model
 model_folder = "savedModels"
-model_filename = "MNISTNetwork_500epochs2.pt"
+model_filename = "MNISTNetwork_500epochs.pt"
 model_path = os.path.join(model_folder, model_filename)
 
 

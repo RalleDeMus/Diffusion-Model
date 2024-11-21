@@ -73,7 +73,7 @@ def GetEncDecLayers():
             nn.GroupNorm(num_groups, chs[0]),  # Add GroupNorm
             nn.SiLU(),
             SelfAttention(chs[0]),  # Self-attention layer
-            nn.Conv2d(chs[0], 1, kernel_size=3, padding=1),
+            nn.Conv2d(chs[0], in_channels, kernel_size=3, padding=1),
         ),
     ])
     return encLayer, decLayer
