@@ -1,0 +1,36 @@
+Loaded dependency [python3/3.10.12]: sqlite3/3.42.0
+Loaded module: python3/3.10.12
+
+Loading python3/3.10.12
+  Loading requirement: sqlite3/3.42.0
+Loaded module: cuda/12.1
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: juliuseg (juliuseg-danmarks-tekniske-universitet-dtu). Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.18.6
+wandb: Run data is saved locally in /zhome/1a/a/156609/project/path/wandb/run-20241120_115112-7dr41zgg
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run CIFAR Linear Test
+wandb: ⭐️ View project at https://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/CIFAR10_diffusion
+wandb: 🚀 View run at https://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/CIFAR10_diffusion/runs/7dr41zgg
+wandb: WARNING Fatal error while uploading data. Some run data will not be synced, but it will still be written to disk. Use `wandb sync` at the end of the run to try uploading.
+Traceback (most recent call last):
+  File "/zhome/1a/a/156609/project/path/main.py", line 28, in <module>
+    train_model(model, dataset, config, config["image_shape"],log=logwandb)#, save_model = True, model_name = "MNISTNetwork_500epochs")
+  File "/zhome/1a/a/156609/project/path/trainers/trainer.py", line 28, in train_model
+    total_loss += loss.item() * data.shape[0]
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7f8b6d6de200>
+Traceback (most recent call last):
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 93, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 210, in teardown
+    self._client.send(
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 215, in send
+    self.send_server_request(server_req)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
