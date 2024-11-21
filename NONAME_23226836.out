@@ -1,0 +1,77 @@
+import: unable to open X server `' @ error/import.c/ImportImageCommand/346.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/346.
+import: unable to open X server `' @ error/import.c/ImportImageCommand/346.
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 4: from: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 5: from: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 6: from: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 7: from: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 8: from: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 11: logwandb: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 14: debugDataSize: command not found
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 18: syntax error near unexpected token `project=config["project_name"],'
+/zhome/1a/a/156609/.lsbatch/1732118564.23226836.shell: line 18: `    wandb.init(project=config["project_name"], name="Mnist 500 epochs", config=config)'
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23226836: <NONAME> in cluster <dcc> Exited
+
+Job <NONAME> was submitted from host <n-62-12-19> by user <s204427> in cluster <dcc> at Wed Nov 20 17:02:44 2024
+Job was executed on host(s) <n-62-31-24>, in queue <hpc>, as user <s204427> in cluster <dcc> at Wed Nov 20 17:02:45 2024
+</zhome/1a/a/156609> was used as the home directory.
+</zhome/1a/a/156609/project/path> was used as the working directory.
+Started at Wed Nov 20 17:02:45 2024
+Terminated at Wed Nov 20 17:02:45 2024
+Results reported at Wed Nov 20 17:02:45 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+import wandb
+import torch
+import os
+from models.ModelLayers.MNIST import GetEncDecLayers
+from configs.MNIST import config
+from utils.dataset_loader import load_dataset
+from models.attention_model.attention_model import ScoreNetwork
+from trainers.trainer import train_model
+
+# Initialize W&B
+logwandb = True
+
+# Use only small subset of data (for debugging)
+debugDataSize = False
+
+if logwandb: 
+    #wandb.init(project=config["project_name"], name=config["wandb_name"], config=config)
+    wandb.init(project=config["project_name"], name="Mnist 500 epochs", config=config)
+
+# Load dataset
+dataset = load_dataset(config,small_sample=debugDataSize)
+
+
+# Initialize model
+model = ScoreNetwork(in_channels=config["image_shape"][0], layers = GetEncDecLayers())
+
+# Train model
+train_model(model, dataset, config, config["image_shape"],log=logwandb, save_model = True, model_name = "MNISTNetwork_500epochs2")
+
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.52 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     1024.00 MB
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   28 sec.
+    Turnaround time :                            1 sec.
+
+The output (if any) is above this job summary.
+

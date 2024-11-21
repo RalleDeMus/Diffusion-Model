@@ -15,7 +15,7 @@ debugDataSize = False
 
 if logwandb: 
     #wandb.init(project=config["project_name"], name=config["wandb_name"], config=config)
-    wandb.init(project=config["project_name"], name="Mnist 5 epochs", config=config)
+    wandb.init(project=config["project_name"], name="Mnist 500 epochs", config=config)
 
 # Load dataset
 dataset = load_dataset(config,small_sample=debugDataSize)
@@ -25,4 +25,4 @@ dataset = load_dataset(config,small_sample=debugDataSize)
 model = ScoreNetwork(in_channels=config["image_shape"][0], layers = GetEncDecLayers())
 
 # Train model
-train_model(model, dataset, config, config["image_shape"],log=logwandb, save_model = True, model_name = "MNISTNetwork_500epochs")
+train_model(model, dataset, config, config["image_shape"],log=logwandb, save_model = True, model_name = "MNISTNetwork_500epochs2")
