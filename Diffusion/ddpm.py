@@ -1,19 +1,28 @@
 import os
 import torch
 import torch.nn as nn
+from matplotlib import pyplot as plt
 from tqdm import tqdm
 from torch import optim
-from torchvision import datasets, transforms
-from torch.utils.data import DataLoader
+from utils import *
 from modules import UNet
 import logging
-import wandb
-from torchvision.utils import make_grid
+from torch.utils.tensorboard import SummaryWriter
 
 logging.basicConfig(format="%(asctime)s - %(levelname)s: %(message)s", level=logging.INFO, datefmt="%I:%M:%S")
 
+
+def print_memory(s = ""):
+    # Check if CUDA is available
+    if torch.cuda.is_available():
+        allocated_memory = torch.cuda.memory_allocated() / 1024 ** 2  # Convert bytes to MB
+        reserved_memory = torch.cuda.memory_reserved() / 1024 ** 2  # Convert bytes to MB
+        print(s + f" Allocated Memory: {allocated_memory:.2f} MB, Reserved Memory: {reserved_memory:.2f} MB")
+    else:
+        print(s+ " CUDA is not available.")
+
 class Diffusion:
-    def __init__(self, noise_steps=1000, beta_start=1e-4, beta_end=0.02, img_size=28, device="cuda"):
+    def __init__(self, noise_steps=1000, beta_start=1e-4, beta_end=0.02, img_size=256, device="cuda"):
         self.noise_steps = noise_steps
         self.beta_start = beta_start
         self.beta_end = beta_end
@@ -40,37 +49,34 @@ class Diffusion:
         logging.info(f"Sampling {n} new images....")
         model.eval()
         with torch.no_grad():
-            x = torch.randn((n, 1, self.img_size, self.img_size)).to(self.device)
+            x = torch.randn((n, 3, self.img_size, self.img_size)).to(self.device)
             for i in tqdm(reversed(range(1, self.noise_steps)), position=0):
                 t = (torch.ones(n) * i).long().to(self.device)
+                
                 predicted_noise = model(x, t)
                 alpha = self.alpha[t][:, None, None, None]
                 alpha_hat = self.alpha_hat[t][:, None, None, None]
                 beta = self.beta[t][:, None, None, None]
-                noise = torch.randn_like(x) if i > 1 else torch.zeros_like(x)
+                if i > 1:
+                    noise = torch.randn_like(x)
+                else:
+                    noise = torch.zeros_like(x)
                 x = 1 / torch.sqrt(alpha) * (x - ((1 - alpha) / (torch.sqrt(1 - alpha_hat))) * predicted_noise) + torch.sqrt(beta) * noise
         model.train()
         x = (x.clamp(-1, 1) + 1) / 2
+        x = (x * 255).type(torch.uint8)
         return x
 
-def get_mnist_data(batch_size, image_size):
-    transform = transforms.Compose([
-        transforms.Resize(image_size),
-        transforms.ToTensor(),
-        transforms.Normalize((0.5,), (0.5,))  # Normalize to [-1, 1]
-    ])
-    mnist_data = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
-    return DataLoader(mnist_data, batch_size=batch_size, shuffle=True)
 
 def train(args):
-    # Initialize wandb
-    wandb.init(project="DDPM_MNIST", name=args.run_name, config=args)
+    setup_logging(args.run_name)
     device = args.device
-    dataloader = get_mnist_data(args.batch_size, args.image_size)
-    model = UNet(c_in=1, c_out=1).to(device)
+    dataloader = get_data(args)
+    model = UNet(args.image_size).to(device)
     optimizer = optim.AdamW(model.parameters(), lr=args.lr)
     mse = nn.MSELoss()
     diffusion = Diffusion(img_size=args.image_size, device=device)
+    logger = SummaryWriter(os.path.join("runs", args.run_name))
     l = len(dataloader)
 
     for epoch in range(args.epochs):
@@ -88,42 +94,30 @@ def train(args):
             optimizer.step()
 
             pbar.set_postfix(MSE=loss.item())
-            wandb.log({"MSE": loss.item()})
+            logger.add_scalar("MSE", loss.item(), global_step=epoch * l + i)
 
-        # Sample and log generated images
-        sampled_images = diffusion.sample(model, n=8)  # Generate 8 images
-        grid = make_grid(sampled_images, nrow=4, normalize=True)
-        wandb.log({"Generated Images": [wandb.Image(grid, caption=f"Epoch {epoch}")]})
+        sampled_images = diffusion.sample(model, n=images.shape[0])
+        save_images(sampled_images, os.path.join("results", args.run_name, f"{epoch}.jpg"))
+        torch.save(model.state_dict(), os.path.join("models", args.run_name, f"ckpt.pt"))
 
-        # Save model checkpoint
-        os.makedirs(f"models/{args.run_name}", exist_ok=True)
-        torch.save(model.state_dict(), os.path.join("models", args.run_name, f"ckpt_{epoch}.pt"))
+        # Save to webpage aswell
+        #save_images(sampled_images, "/zhome/1a/a/156609/public_html/ShowResults/result.jpg")
 
-    wandb.finish()
+
 
 def launch():
     import argparse
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
-    args.run_name = "DDPM_MNIST"
-    args.epochs = 10
-    args.batch_size = 64
-    args.image_size = 28  # Set for MNIST
-    args.device = "cuda" if torch.cuda.is_available() else "cpu"
+    args.run_name = "DDPM_Test"
+    args.epochs = 500
+    args.batch_size = 128
+    args.image_size = 32
+    args.dataset_path = "/zhome/1a/a/156609/project/path/Diffusion"
+    args.device = "cuda"
     args.lr = 3e-4
     train(args)
 
+
 if __name__ == '__main__':
     launch()
-    # device = "cuda"
-    # model = UNet().to(device)
-    # ckpt = torch.load("./working/orig/ckpt.pt")
-    # model.load_state_dict(ckpt)
-    # diffusion = Diffusion(img_size=64, device=device)
-    # x = diffusion.sample(model, 8)
-    # print(x.shape)
-    # plt.figure(figsize=(32, 32))
-    # plt.imshow(torch.cat([
-    #     torch.cat([i for i in x.cpu()], dim=-1),
-    # ], dim=-2).permute(1, 2, 0).cpu())
-    # plt.show()

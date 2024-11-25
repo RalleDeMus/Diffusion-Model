@@ -3,3 +3,11 @@
 /.venv/
 /mnist/
 /wandb/
+/cropped_celeba/
+/UNet/results/
+/UNet/models
+/cropped_celeba_bin/
+/UNetResBlock/results/
+/UNetResBlock/models
+/Diffusion/
+/cropped-celeba.zip

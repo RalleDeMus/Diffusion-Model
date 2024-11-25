@@ -11,14 +11,14 @@ from trainers.trainer import train_model
 logwandb = False
 
 # Use only small subset of data (for debugging)
-debugDataSize = False
+debugDataSize = True
 
 save_model = False
-model_name = "MNISTNetwork_500epochs2" # File that the model is saved as. Only relevant if save_model = True
+model_name = "CIFARNetwork_500epochs" # File that the model is saved as. Only relevant if save_model = True
 
 
 if logwandb: 
-    wandb.init(project=config["project_name"], name="Mnist 500 epochs", config=config)
+    wandb.init(project=config["project_name"], name="CIFAR 500 epochs", config=config)
 
 # Load dataset
 dataset = load_dataset(config,small_sample=debugDataSize)

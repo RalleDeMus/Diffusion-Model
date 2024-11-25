@@ -1,0 +1,1069 @@
+Files already downloaded and verified
+Epoch 0 started
+Epoch 0, Loss: 0.11808400461912155
+Epoch 1 started
+Epoch 1, Loss: 0.06470528886079788
+Epoch 2 started
+Epoch 2, Loss: 0.055183471268415454
+Epoch 3 started
+Epoch 3, Loss: 0.0499967024731636
+Epoch 4 started
+Epoch 4, Loss: 0.04569846139431
+Epoch 5 started
+Epoch 5, Loss: 0.044518634102344516
+Epoch 6 started
+Epoch 6, Loss: 0.043077891929149625
+Epoch 7 started
+Epoch 7, Loss: 0.04144248691082001
+Epoch 8 started
+Epoch 8, Loss: 0.04109890080213547
+Epoch 9 started
+Epoch 9, Loss: 0.03997699939131737
+Epoch 10 started
+Epoch 10, Loss: 0.038826285169124605
+Epoch 11 started
+Epoch 11, Loss: 0.038136642671823505
+Epoch 12 started
+Epoch 12, Loss: 0.0386446628421545
+Epoch 13 started
+Epoch 13, Loss: 0.03774362735629082
+Epoch 14 started
+Epoch 14, Loss: 0.03733978600859642
+Epoch 15 started
+Epoch 15, Loss: 0.037646028152704236
+Epoch 16 started
+Epoch 16, Loss: 0.037077309910058975
+Epoch 17 started
+Epoch 17, Loss: 0.03683424136519432
+Epoch 18 started
+Epoch 18, Loss: 0.036543164737224576
+Epoch 19 started
+Epoch 19, Loss: 0.03654221524715424
+Epoch 20 started
+Epoch 20, Loss: 0.036367464953660965
+Epoch 21 started
+Epoch 21, Loss: 0.03572838241577148
+Epoch 22 started
+Epoch 22, Loss: 0.03593030753493309
+Epoch 23 started
+Epoch 23, Loss: 0.035675626884698865
+Epoch 24 started
+Epoch 24, Loss: 0.03621896591544151
+Epoch 25 started
+Epoch 25, Loss: 0.03529242482066154
+Epoch 26 started
+Epoch 26, Loss: 0.03574753192663193
+Epoch 27 started
+Epoch 27, Loss: 0.035145868419408796
+Epoch 28 started
+Epoch 28, Loss: 0.03552510150253773
+Epoch 29 started
+Epoch 29, Loss: 0.03529183229923248
+Epoch 30 started
+Epoch 30, Loss: 0.03506128751277924
+Epoch 31 started
+Epoch 31, Loss: 0.03523323922753334
+Epoch 32 started
+Epoch 32, Loss: 0.035440379868745805
+Epoch 33 started
+Epoch 33, Loss: 0.03446984093785286
+Epoch 34 started
+Epoch 34, Loss: 0.0353225389611721
+Epoch 35 started
+Epoch 35, Loss: 0.035886502088308334
+Epoch 36 started
+Epoch 36, Loss: 0.03438020844578743
+Epoch 37 started
+Epoch 37, Loss: 0.034748529736995694
+Epoch 38 started
+Epoch 38, Loss: 0.034440954561829565
+Epoch 39 started
+Epoch 39, Loss: 0.034898475605249404
+Epoch 40 started
+Epoch 40, Loss: 0.034311720374822614
+Epoch 41 started
+Epoch 41, Loss: 0.03467579187631607
+Epoch 42 started
+Epoch 42, Loss: 0.03432118609905243
+Epoch 43 started
+Epoch 43, Loss: 0.035061103978157045
+Epoch 44 started
+Epoch 44, Loss: 0.03563498867332935
+Epoch 45 started
+Epoch 45, Loss: 0.03429079697489738
+Epoch 46 started
+Epoch 46, Loss: 0.034384865527153016
+Epoch 47 started
+Epoch 47, Loss: 0.03427110394239426
+Epoch 48 started
+Epoch 48, Loss: 0.033942242176532744
+Epoch 49 started
+Epoch 49, Loss: 0.03366986231327057
+Epoch 50 started
+Epoch 50, Loss: 0.03392254187464714
+Epoch 51 started
+Epoch 51, Loss: 0.03419588044285774
+Epoch 52 started
+Epoch 52, Loss: 0.0337105667424202
+Epoch 53 started
+Epoch 53, Loss: 0.03424358580350876
+Epoch 54 started
+Epoch 54, Loss: 0.03365352106809616
+Epoch 55 started
+Epoch 55, Loss: 0.03413051444530487
+Epoch 56 started
+Epoch 56, Loss: 0.034074309147596356
+Epoch 57 started
+Epoch 57, Loss: 0.03419625123858452
+Epoch 58 started
+Epoch 58, Loss: 0.03406331821084022
+Epoch 59 started
+Epoch 59, Loss: 0.033528389846086505
+Epoch 60 started
+Epoch 60, Loss: 0.03402461997866631
+Epoch 61 started
+Epoch 61, Loss: 0.03322405696630478
+Epoch 62 started
+Epoch 62, Loss: 0.033418668999671934
+Epoch 63 started
+Epoch 63, Loss: 0.034408821384906765
+Epoch 64 started
+Epoch 64, Loss: 0.03376318615794182
+Epoch 65 started
+Epoch 65, Loss: 0.033433760081529616
+Epoch 66 started
+Epoch 66, Loss: 0.03362273886919022
+Epoch 67 started
+Epoch 67, Loss: 0.03357088850557804
+Epoch 68 started
+Epoch 68, Loss: 0.033886236708164215
+Epoch 69 started
+Epoch 69, Loss: 0.033749819034338
+Epoch 70 started
+Epoch 70, Loss: 0.03400982967734337
+Epoch 71 started
+Epoch 71, Loss: 0.03322446361839771
+Epoch 72 started
+Epoch 72, Loss: 0.03396521396040916
+Epoch 73 started
+Epoch 73, Loss: 0.0335841756939888
+Epoch 74 started
+Epoch 74, Loss: 0.0336538443851471
+Epoch 75 started
+Epoch 75, Loss: 0.03385557363986969
+Epoch 76 started
+Epoch 76, Loss: 0.03307445205569267
+Epoch 77 started
+Epoch 77, Loss: 0.03348277498960495
+Epoch 78 started
+Epoch 78, Loss: 0.03351686969637871
+Epoch 79 started
+Epoch 79, Loss: 0.033257630751132965
+Epoch 80 started
+Epoch 80, Loss: 0.03342255368173122
+Epoch 81 started
+Epoch 81, Loss: 0.03279844542115927
+Epoch 82 started
+Epoch 82, Loss: 0.033282082169651984
+Epoch 83 started
+Epoch 83, Loss: 0.033200732451677324
+Epoch 84 started
+Epoch 84, Loss: 0.033022569677233694
+Epoch 85 started
+Epoch 85, Loss: 0.033353047685623166
+Epoch 86 started
+Epoch 86, Loss: 0.032860859442949295
+Epoch 87 started
+Epoch 87, Loss: 0.032920188618898394
+Epoch 88 started
+Epoch 88, Loss: 0.03291169974565506
+Epoch 89 started
+Epoch 89, Loss: 0.033333676776885986
+Epoch 90 started
+Epoch 90, Loss: 0.032922381561994556
+Epoch 91 started
+Epoch 91, Loss: 0.03323562380552292
+Epoch 92 started
+Epoch 92, Loss: 0.03305971510708332
+Epoch 93 started
+Epoch 93, Loss: 0.03307726504981518
+Epoch 94 started
+Epoch 94, Loss: 0.03299697565436363
+Epoch 95 started
+Epoch 95, Loss: 0.03289885359287262
+Epoch 96 started
+Epoch 96, Loss: 0.033169828510284424
+Epoch 97 started
+Epoch 97, Loss: 0.033225240713357924
+Epoch 98 started
+Epoch 98, Loss: 0.03297958358407021
+Epoch 99 started
+Epoch 99, Loss: 0.03312636475086212
+Epoch 100 started
+Epoch 100, Loss: 0.033070583835840224
+Epoch 101 started
+Epoch 101, Loss: 0.033157590534687045
+Epoch 102 started
+Epoch 102, Loss: 0.03344524841427803
+Epoch 103 started
+Epoch 103, Loss: 0.03245383283436298
+Epoch 104 started
+Epoch 104, Loss: 0.03289916682481766
+Epoch 105 started
+Epoch 105, Loss: 0.033603164047002795
+Epoch 106 started
+Epoch 106, Loss: 0.032728968003988265
+Epoch 107 started
+Epoch 107, Loss: 0.033151297541856764
+Epoch 108 started
+Epoch 108, Loss: 0.032993184399604795
+Epoch 109 started
+Epoch 109, Loss: 0.03337889514267445
+Epoch 110 started
+Epoch 110, Loss: 0.03278411109685898
+Epoch 111 started
+Epoch 111, Loss: 0.03339437863469124
+Epoch 112 started
+Epoch 112, Loss: 0.033229171162843706
+Epoch 113 started
+Epoch 113, Loss: 0.032841198761463165
+Epoch 114 started
+Epoch 114, Loss: 0.033031213241815564
+Epoch 115 started
+Epoch 115, Loss: 0.03248451373815536
+Epoch 116 started
+Epoch 116, Loss: 0.03268649309158325
+Epoch 117 started
+Epoch 117, Loss: 0.03302225233256817
+Epoch 118 started
+Epoch 118, Loss: 0.032555049055814744
+Epoch 119 started
+Epoch 119, Loss: 0.032489372240304945
+Epoch 120 started
+Epoch 120, Loss: 0.03302842713832855
+Epoch 121 started
+Epoch 121, Loss: 0.032812060960531235
+Epoch 122 started
+Epoch 122, Loss: 0.03283456675171852
+Epoch 123 started
+Epoch 123, Loss: 0.03291060969233513
+Epoch 124 started
+Epoch 124, Loss: 0.033251586849689485
+Epoch 125 started
+Epoch 125, Loss: 0.03256538004755974
+Epoch 126 started
+Epoch 126, Loss: 0.03322648959875107
+Epoch 127 started
+Epoch 127, Loss: 0.032459117478132245
+Epoch 128 started
+Epoch 128, Loss: 0.03288188174843788
+Epoch 129 started
+Epoch 129, Loss: 0.0331153857755661
+Epoch 130 started
+Epoch 130, Loss: 0.03304873106598854
+Epoch 131 started
+Epoch 131, Loss: 0.03234167074859142
+Epoch 132 started
+Epoch 132, Loss: 0.0330795156788826
+Epoch 133 started
+Epoch 133, Loss: 0.03272161126494408
+Epoch 134 started
+Epoch 134, Loss: 0.03296858000516892
+Epoch 135 started
+Epoch 135, Loss: 0.03286085159420967
+Epoch 136 started
+Epoch 136, Loss: 0.03305513526618481
+Epoch 137 started
+Epoch 137, Loss: 0.03256450783133507
+Epoch 138 started
+Epoch 138, Loss: 0.032599959213733674
+Epoch 139 started
+Epoch 139, Loss: 0.03265535369992256
+Epoch 140 started
+Epoch 140, Loss: 0.03295857680439949
+Epoch 141 started
+Epoch 141, Loss: 0.032808684669733044
+Epoch 142 started
+Epoch 142, Loss: 0.033414631814956665
+Epoch 143 started
+Epoch 143, Loss: 0.032906709859371185
+Epoch 144 started
+Epoch 144, Loss: 0.03292331887662411
+Epoch 145 started
+Epoch 145, Loss: 0.032949284344911574
+Epoch 146 started
+Epoch 146, Loss: 0.03316224481344223
+Epoch 147 started
+Epoch 147, Loss: 0.033085074117183685
+Epoch 148 started
+Epoch 148, Loss: 0.03296614354133606
+Epoch 149 started
+Epoch 149, Loss: 0.032466772106289864
+Epoch 150 started
+Epoch 150, Loss: 0.032611970628499985
+Epoch 151 started
+Epoch 151, Loss: 0.03258883645892143
+Epoch 152 started
+Epoch 152, Loss: 0.03284083438038826
+Epoch 153 started
+Epoch 153, Loss: 0.03251759899497032
+Epoch 154 started
+Epoch 154, Loss: 0.03258965838432312
+Epoch 155 started
+Epoch 155, Loss: 0.032608517453074456
+Epoch 156 started
+Epoch 156, Loss: 0.03298769139051437
+Epoch 157 started
+Epoch 157, Loss: 0.032787747139930726
+Epoch 158 started
+Epoch 158, Loss: 0.03260356286406517
+Epoch 159 started
+Epoch 159, Loss: 0.03257859142422676
+Epoch 160 started
+Epoch 160, Loss: 0.03279132490873337
+Epoch 161 started
+Epoch 161, Loss: 0.032539529848098755
+Epoch 162 started
+Epoch 162, Loss: 0.03209918688774109
+Epoch 163 started
+Epoch 163, Loss: 0.03253100563704967
+Epoch 164 started
+Epoch 164, Loss: 0.032458898854851724
+Epoch 165 started
+Epoch 165, Loss: 0.03274545602321625
+Epoch 166 started
+Epoch 166, Loss: 0.033324844797849654
+Epoch 167 started
+Epoch 167, Loss: 0.03234848254621029
+Epoch 168 started
+Epoch 168, Loss: 0.03283820460677147
+Epoch 169 started
+Epoch 169, Loss: 0.032768539045155046
+Epoch 170 started
+Epoch 170, Loss: 0.03231790114820003
+Epoch 171 started
+Epoch 171, Loss: 0.03235729180157185
+Epoch 172 started
+Epoch 172, Loss: 0.03251297724545002
+Epoch 173 started
+Epoch 173, Loss: 0.03253386599063873
+Epoch 174 started
+Epoch 174, Loss: 0.03226025348901749
+Epoch 175 started
+Epoch 175, Loss: 0.03258075473308563
+Epoch 176 started
+Epoch 176, Loss: 0.032043227036595345
+Epoch 177 started
+Epoch 177, Loss: 0.032643103780150416
+Epoch 178 started
+Epoch 178, Loss: 0.03272366038501263
+Epoch 179 started
+Epoch 179, Loss: 0.031663658086657526
+Epoch 180 started
+Epoch 180, Loss: 0.03275547442913056
+Epoch 181 started
+Epoch 181, Loss: 0.03174861919403076
+Epoch 182 started
+Epoch 182, Loss: 0.03274912878751755
+Epoch 183 started
+Epoch 183, Loss: 0.03241456763744354
+Epoch 184 started
+Epoch 184, Loss: 0.0326759511077404
+Epoch 185 started
+Epoch 185, Loss: 0.03236805933594704
+Epoch 186 started
+Epoch 186, Loss: 0.03229125485658645
+Epoch 187 started
+Epoch 187, Loss: 0.032758402618169785
+Epoch 188 started
+Epoch 188, Loss: 0.03270715569615364
+Epoch 189 started
+Epoch 189, Loss: 0.03259690614938736
+Epoch 190 started
+Epoch 190, Loss: 0.03232643395185471
+Epoch 191 started
+Epoch 191, Loss: 0.032427850682139395
+Epoch 192 started
+Epoch 192, Loss: 0.03285545198082924
+Epoch 193 started
+Epoch 193, Loss: 0.032279459187984465
+Epoch 194 started
+Epoch 194, Loss: 0.0319852160513401
+Epoch 195 started
+Epoch 195, Loss: 0.03227945480704308
+Epoch 196 started
+Epoch 196, Loss: 0.03287110863983631
+Epoch 197 started
+Epoch 197, Loss: 0.0322015471971035
+Epoch 198 started
+Epoch 198, Loss: 0.03226942232847214
+Epoch 199 started
+Epoch 199, Loss: 0.0323326770222187
+Epoch 200 started
+Epoch 200, Loss: 0.03258529907166958
+Epoch 201 started
+Epoch 201, Loss: 0.03227888648808003
+Epoch 202 started
+Epoch 202, Loss: 0.03247597908496857
+Epoch 203 started
+Epoch 203, Loss: 0.03288224211513996
+Epoch 204 started
+Epoch 204, Loss: 0.03200285303354263
+Epoch 205 started
+Epoch 205, Loss: 0.032454504686594006
+Epoch 206 started
+Epoch 206, Loss: 0.03214809658527374
+Epoch 207 started
+Epoch 207, Loss: 0.03227911492586136
+Epoch 208 started
+Epoch 208, Loss: 0.032379140617251397
+Epoch 209 started
+Epoch 209, Loss: 0.03266388839960098
+Epoch 210 started
+Epoch 210, Loss: 0.03190657898902893
+Epoch 211 started
+Epoch 211, Loss: 0.03229784182131291
+Epoch 212 started
+Epoch 212, Loss: 0.03222409673929214
+Epoch 213 started
+Epoch 213, Loss: 0.032506582857370375
+Epoch 214 started
+Epoch 214, Loss: 0.03212977283120155
+Epoch 215 started
+Epoch 215, Loss: 0.03208368498086929
+Epoch 216 started
+Epoch 216, Loss: 0.032543592866659164
+Epoch 217 started
+Epoch 217, Loss: 0.03236880815267563
+Epoch 218 started
+Epoch 218, Loss: 0.03212564445018768
+Epoch 219 started
+Epoch 219, Loss: 0.032486499396562576
+Epoch 220 started
+Epoch 220, Loss: 0.03236572571873665
+Epoch 221 started
+Epoch 221, Loss: 0.03164846484005451
+Epoch 222 started
+Epoch 222, Loss: 0.03255598576307297
+Epoch 223 started
+Epoch 223, Loss: 0.03247371433734894
+Epoch 224 started
+Epoch 224, Loss: 0.032115221636891365
+Epoch 225 started
+Epoch 225, Loss: 0.03232502137899399
+Epoch 226 started
+Epoch 226, Loss: 0.0317820996761322
+Epoch 227 started
+Epoch 227, Loss: 0.03206865992605686
+Epoch 228 started
+Epoch 228, Loss: 0.032063752286434176
+Epoch 229 started
+Epoch 229, Loss: 0.032190137899518016
+Epoch 230 started
+Epoch 230, Loss: 0.03246367201805115
+Epoch 231 started
+Epoch 231, Loss: 0.03212891698002815
+Epoch 232 started
+Epoch 232, Loss: 0.03187525729775429
+Epoch 233 started
+Epoch 233, Loss: 0.032025166580677035
+Epoch 234 started
+Epoch 234, Loss: 0.031530760694742206
+Epoch 235 started
+Epoch 235, Loss: 0.032271298397779466
+Epoch 236 started
+Epoch 236, Loss: 0.031824094039201736
+Epoch 237 started
+Epoch 237, Loss: 0.032057371076345445
+Epoch 238 started
+Epoch 238, Loss: 0.03180982448458672
+Epoch 239 started
+Epoch 239, Loss: 0.03313384871959686
+Epoch 240 started
+Epoch 240, Loss: 0.03190112339735031
+Epoch 241 started
+Epoch 241, Loss: 0.032538818517923354
+Epoch 242 started
+Epoch 242, Loss: 0.03184553677916527
+Epoch 243 started
+Epoch 243, Loss: 0.032698477129340174
+Epoch 244 started
+Epoch 244, Loss: 0.032187166106700894
+Epoch 245 started
+Epoch 245, Loss: 0.03183522666096687
+Epoch 246 started
+Epoch 246, Loss: 0.03252555777907371
+Epoch 247 started
+Epoch 247, Loss: 0.032508989399671555
+Epoch 248 started
+Epoch 248, Loss: 0.031612185566425324
+Epoch 249 started
+Epoch 249, Loss: 0.032118262122869494
+Epoch 250 started
+Epoch 250, Loss: 0.03144379208803177
+Epoch 251 started
+Epoch 251, Loss: 0.032080411177873615
+Epoch 252 started
+Epoch 252, Loss: 0.03192447947740555
+Epoch 253 started
+Epoch 253, Loss: 0.031897718460559846
+Epoch 254 started
+Epoch 254, Loss: 0.03259828447759151
+Epoch 255 started
+Epoch 255, Loss: 0.03218275133967399
+Epoch 256 started
+Epoch 256, Loss: 0.032091456023454666
+Epoch 257 started
+Epoch 257, Loss: 0.03236548205256462
+Epoch 258 started
+Epoch 258, Loss: 0.031899567469358445
+Epoch 259 started
+Epoch 259, Loss: 0.03194064075231552
+Epoch 260 started
+Epoch 260, Loss: 0.031645140171647074
+Epoch 261 started
+Epoch 261, Loss: 0.031948989590406415
+Epoch 262 started
+Epoch 262, Loss: 0.03214663815975189
+Epoch 263 started
+Epoch 263, Loss: 0.03194482862591744
+Epoch 264 started
+Epoch 264, Loss: 0.03215687921643257
+Epoch 265 started
+Epoch 265, Loss: 0.0318650737541914
+Epoch 266 started
+Epoch 266, Loss: 0.03213862125873566
+Epoch 267 started
+Epoch 267, Loss: 0.03170993368983269
+Epoch 268 started
+Epoch 268, Loss: 0.031948532149791715
+Epoch 269 started
+Epoch 269, Loss: 0.03168634860694408
+Epoch 270 started
+Epoch 270, Loss: 0.03217667100548744
+Epoch 271 started
+Epoch 271, Loss: 0.032079787006378174
+Epoch 272 started
+Epoch 272, Loss: 0.03202005926132202
+Epoch 273 started
+Epoch 273, Loss: 0.03239630604982376
+Epoch 274 started
+Epoch 274, Loss: 0.031624239943027495
+Epoch 275 started
+Epoch 275, Loss: 0.03203462116122246
+Epoch 276 started
+Epoch 276, Loss: 0.03215148207068443
+Epoch 277 started
+Epoch 277, Loss: 0.0325318514251709
+Epoch 278 started
+Epoch 278, Loss: 0.03166555212140083
+Epoch 279 started
+Epoch 279, Loss: 0.03227896413296461
+Epoch 280 started
+Epoch 280, Loss: 0.031679242227077485
+Epoch 281 started
+Epoch 281, Loss: 0.03177114090085029
+Epoch 282 started
+Epoch 282, Loss: 0.031588491911888124
+Epoch 283 started
+Epoch 283, Loss: 0.032064730291366576
+Epoch 284 started
+Epoch 284, Loss: 0.03205994331479073
+Epoch 285 started
+Epoch 285, Loss: 0.03202765397191048
+Epoch 286 started
+Epoch 286, Loss: 0.03188081758379936
+Epoch 287 started
+Epoch 287, Loss: 0.0313987505698204
+Epoch 288 started
+Epoch 288, Loss: 0.03137170406699181
+Epoch 289 started
+Epoch 289, Loss: 0.03188120130419731
+Epoch 290 started
+Epoch 290, Loss: 0.03174010220766067
+Epoch 291 started
+Epoch 291, Loss: 0.03244352095007896
+Epoch 292 started
+Epoch 292, Loss: 0.03132217137694359
+Epoch 293 started
+Epoch 293, Loss: 0.032314705492258074
+Epoch 294 started
+Epoch 294, Loss: 0.0317608600461483
+Epoch 295 started
+Epoch 295, Loss: 0.03194866975724697
+Epoch 296 started
+Epoch 296, Loss: 0.031886046204566955
+Epoch 297 started
+Epoch 297, Loss: 0.032093439763784405
+Epoch 298 started
+Epoch 298, Loss: 0.03142585911035538
+Epoch 299 started
+Epoch 299, Loss: 0.03213675310790539
+Epoch 300 started
+Epoch 300, Loss: 0.032325733199715614
+Epoch 301 started
+Epoch 301, Loss: 0.032352588007450105
+Epoch 302 started
+Epoch 302, Loss: 0.03184763240277767
+Epoch 303 started
+Epoch 303, Loss: 0.032095003832578656
+Epoch 304 started
+Epoch 304, Loss: 0.03187221752762794
+Epoch 305 started
+Epoch 305, Loss: 0.032093735992908476
+Epoch 306 started
+Epoch 306, Loss: 0.03163735050201416
+Epoch 307 started
+Epoch 307, Loss: 0.03232181602835655
+Epoch 308 started
+Epoch 308, Loss: 0.032225220334529875
+Epoch 309 started
+Epoch 309, Loss: 0.03182580580353737
+Epoch 310 started
+Epoch 310, Loss: 0.03202948516845703
+Epoch 311 started
+Epoch 311, Loss: 0.031630830298662184
+Epoch 312 started
+Epoch 312, Loss: 0.031717749751210216
+Epoch 313 started
+Epoch 313, Loss: 0.03234921923875809
+Epoch 314 started
+Epoch 314, Loss: 0.0318823134380579
+Epoch 315 started
+Epoch 315, Loss: 0.031875228999853136
+Epoch 316 started
+Epoch 316, Loss: 0.031881344878673556
+Epoch 317 started
+Epoch 317, Loss: 0.03207091630578041
+Epoch 318 started
+Epoch 318, Loss: 0.03133477267622948
+Epoch 319 started
+Epoch 319, Loss: 0.03191172708272934
+Epoch 320 started
+Epoch 320, Loss: 0.0318828403711319
+Epoch 321 started
+Epoch 321, Loss: 0.031779903609156605
+Epoch 322 started
+Epoch 322, Loss: 0.03195116884231567
+Epoch 323 started
+Epoch 323, Loss: 0.03139153856992721
+Epoch 324 started
+Epoch 324, Loss: 0.03192031850337982
+Epoch 325 started
+Epoch 325, Loss: 0.03185434828519821
+Epoch 326 started
+Epoch 326, Loss: 0.03184742667913437
+Epoch 327 started
+Epoch 327, Loss: 0.031975472075939176
+Epoch 328 started
+Epoch 328, Loss: 0.03217570074558258
+Epoch 329 started
+Epoch 329, Loss: 0.031717701721191406
+Epoch 330 started
+Epoch 330, Loss: 0.03214963937520981
+Epoch 331 started
+Epoch 331, Loss: 0.03174715905845165
+Epoch 332 started
+Epoch 332, Loss: 0.03185224958598614
+Epoch 333 started
+Epoch 333, Loss: 0.031701454772949215
+Epoch 334 started
+Epoch 334, Loss: 0.03186202341377735
+Epoch 335 started
+Epoch 335, Loss: 0.031607061015963556
+Epoch 336 started
+Epoch 336, Loss: 0.03144849355816841
+Epoch 337 started
+Epoch 337, Loss: 0.03142848046720028
+Epoch 338 started
+Epoch 338, Loss: 0.03194202281713486
+Epoch 339 started
+Epoch 339, Loss: 0.031808523863554
+Epoch 340 started
+Epoch 340, Loss: 0.03247321518063545
+Epoch 341 started
+Epoch 341, Loss: 0.032151112943887714
+Epoch 342 started
+Epoch 342, Loss: 0.03232107998728752
+Epoch 343 started
+Epoch 343, Loss: 0.031604372887611386
+Epoch 344 started
+Epoch 344, Loss: 0.03178164311170578
+Epoch 345 started
+Epoch 345, Loss: 0.03154759586691856
+Epoch 346 started
+Epoch 346, Loss: 0.0318690606713295
+Epoch 347 started
+Epoch 347, Loss: 0.03163998630404472
+Epoch 348 started
+Epoch 348, Loss: 0.03154511668562889
+Epoch 349 started
+Epoch 349, Loss: 0.03145251762509346
+Epoch 350 started
+Epoch 350, Loss: 0.03198664926052094
+Epoch 351 started
+Epoch 351, Loss: 0.03143821817815304
+Epoch 352 started
+Epoch 352, Loss: 0.031899927437901494
+Epoch 353 started
+Epoch 353, Loss: 0.03239755237460137
+Epoch 354 started
+Epoch 354, Loss: 0.031197531870603562
+Epoch 355 started
+Epoch 355, Loss: 0.032021740738153455
+Epoch 356 started
+Epoch 356, Loss: 0.03201631700992584
+Epoch 357 started
+Epoch 357, Loss: 0.03181756741464138
+Epoch 358 started
+Epoch 358, Loss: 0.03178581801891327
+Epoch 359 started
+Epoch 359, Loss: 0.0322434860175848
+Epoch 360 started
+Epoch 360, Loss: 0.03149596148490906
+Epoch 361 started
+Epoch 361, Loss: 0.03171716930031777
+Epoch 362 started
+Epoch 362, Loss: 0.03171216082811355
+Epoch 363 started
+Epoch 363, Loss: 0.03200179314315319
+Epoch 364 started
+Epoch 364, Loss: 0.03170963387608528
+Epoch 365 started
+Epoch 365, Loss: 0.03192173477888107
+Epoch 366 started
+Epoch 366, Loss: 0.03156225720643997
+Epoch 367 started
+Epoch 367, Loss: 0.03190121827363968
+Epoch 368 started
+Epoch 368, Loss: 0.031826019257307055
+Epoch 369 started
+Epoch 369, Loss: 0.03173057923793793
+Epoch 370 started
+Epoch 370, Loss: 0.031569537888765334
+Epoch 371 started
+Epoch 371, Loss: 0.03189191778898239
+Epoch 372 started
+Epoch 372, Loss: 0.03169690096974373
+Epoch 373 started
+Epoch 373, Loss: 0.03192588055491447
+Epoch 374 started
+Epoch 374, Loss: 0.03185461695373058
+Epoch 375 started
+Epoch 375, Loss: 0.03151649528384209
+Epoch 376 started
+Epoch 376, Loss: 0.031924032643437385
+Epoch 377 started
+Epoch 377, Loss: 0.03201561752796173
+Epoch 378 started
+Epoch 378, Loss: 0.032065069358348845
+Epoch 379 started
+Epoch 379, Loss: 0.032094194518327714
+Epoch 380 started
+Epoch 380, Loss: 0.03195957606077194
+Epoch 381 started
+Epoch 381, Loss: 0.03130652840852737
+Epoch 382 started
+Epoch 382, Loss: 0.032035090491771695
+Epoch 383 started
+Epoch 383, Loss: 0.031477268822789194
+Epoch 384 started
+Epoch 384, Loss: 0.03160999488532543
+Epoch 385 started
+Epoch 385, Loss: 0.03148919560074806
+Epoch 386 started
+Epoch 386, Loss: 0.03193676195204258
+Epoch 387 started
+Epoch 387, Loss: 0.031682959876060485
+Epoch 388 started
+Epoch 388, Loss: 0.031098878481388093
+Epoch 389 started
+Epoch 389, Loss: 0.03195693529248238
+Epoch 390 started
+Epoch 390, Loss: 0.03167571096897125
+Epoch 391 started
+Epoch 391, Loss: 0.03163294176459312
+Epoch 392 started
+Epoch 392, Loss: 0.03208437475144863
+Epoch 393 started
+Epoch 393, Loss: 0.031448645322322846
+Epoch 394 started
+Epoch 394, Loss: 0.03164867205739021
+Epoch 395 started
+Epoch 395, Loss: 0.031593254520893094
+Epoch 396 started
+Epoch 396, Loss: 0.03191152580142021
+Epoch 397 started
+Epoch 397, Loss: 0.031695417802333835
+Epoch 398 started
+Epoch 398, Loss: 0.03175567426204681
+Epoch 399 started
+Epoch 399, Loss: 0.03187693539142609
+Epoch 400 started
+Epoch 400, Loss: 0.03199904161989689
+Epoch 401 started
+Epoch 401, Loss: 0.03150673513889313
+Epoch 402 started
+Epoch 402, Loss: 0.03173094412922859
+Epoch 403 started
+Epoch 403, Loss: 0.03121019671201706
+Epoch 404 started
+Epoch 404, Loss: 0.03202201236486435
+Epoch 405 started
+Epoch 405, Loss: 0.03184215206027031
+Epoch 406 started
+Epoch 406, Loss: 0.03190427997767925
+Epoch 407 started
+Epoch 407, Loss: 0.03119273474574089
+Epoch 408 started
+Epoch 408, Loss: 0.0320785663497448
+Epoch 409 started
+Epoch 409, Loss: 0.031554013289809224
+Epoch 410 started
+Epoch 410, Loss: 0.03201687833547592
+Epoch 411 started
+Epoch 411, Loss: 0.03207124956607819
+Epoch 412 started
+Epoch 412, Loss: 0.031640991503596304
+Epoch 413 started
+Epoch 413, Loss: 0.03157203394055366
+Epoch 414 started
+Epoch 414, Loss: 0.0316398319965601
+Epoch 415 started
+Epoch 415, Loss: 0.031864384667873384
+Epoch 416 started
+Epoch 416, Loss: 0.03170613572359085
+Epoch 417 started
+Epoch 417, Loss: 0.0315736945438385
+Epoch 418 started
+Epoch 418, Loss: 0.031784751640558245
+Epoch 419 started
+Epoch 419, Loss: 0.03159742473363877
+Epoch 420 started
+Epoch 420, Loss: 0.03143685944914818
+Epoch 421 started
+Epoch 421, Loss: 0.031489392627477644
+Epoch 422 started
+Epoch 422, Loss: 0.0318107837677002
+Epoch 423 started
+Epoch 423, Loss: 0.031785481213331225
+Epoch 424 started
+Epoch 424, Loss: 0.03162115059375763
+Epoch 425 started
+Epoch 425, Loss: 0.0314755172765255
+Epoch 426 started
+Epoch 426, Loss: 0.03181208834707737
+Epoch 427 started
+Epoch 427, Loss: 0.031272813808918
+Epoch 428 started
+Epoch 428, Loss: 0.03181204501986504
+Epoch 429 started
+Epoch 429, Loss: 0.03138852170109749
+Epoch 430 started
+Epoch 430, Loss: 0.031567197669744494
+Epoch 431 started
+Epoch 431, Loss: 0.03149760466873646
+Epoch 432 started
+Epoch 432, Loss: 0.031598555834293364
+Epoch 433 started
+Epoch 433, Loss: 0.03153501651763916
+Epoch 434 started
+Epoch 434, Loss: 0.031516930872797964
+Epoch 435 started
+Epoch 435, Loss: 0.03140593638837338
+Epoch 436 started
+Epoch 436, Loss: 0.031233803423047067
+Epoch 437 started
+Epoch 437, Loss: 0.031640298095941544
+Epoch 438 started
+Epoch 438, Loss: 0.03187181205868721
+Epoch 439 started
+Epoch 439, Loss: 0.031790818699598315
+Epoch 440 started
+Epoch 440, Loss: 0.03172394124746323
+Epoch 441 started
+Epoch 441, Loss: 0.03196183208346367
+Epoch 442 started
+Epoch 442, Loss: 0.03131518372774124
+Epoch 443 started
+Epoch 443, Loss: 0.0311150435423851
+Epoch 444 started
+Epoch 444, Loss: 0.03216194757401943
+Epoch 445 started
+Epoch 445, Loss: 0.03212607657492161
+Epoch 446 started
+Epoch 446, Loss: 0.03204782569527626
+Epoch 447 started
+Epoch 447, Loss: 0.031421142148971556
+Epoch 448 started
+Epoch 448, Loss: 0.03189771998465061
+Epoch 449 started
+Epoch 449, Loss: 0.03134871060729027
+Epoch 450 started
+Epoch 450, Loss: 0.03181823005616665
+Epoch 451 started
+Epoch 451, Loss: 0.03116295453429222
+Epoch 452 started
+Epoch 452, Loss: 0.031529693466424945
+Epoch 453 started
+Epoch 453, Loss: 0.03153871622443199
+Epoch 454 started
+Epoch 454, Loss: 0.031638459568023684
+Epoch 455 started
+Epoch 455, Loss: 0.03191464560866356
+Epoch 456 started
+Epoch 456, Loss: 0.03193976374566555
+Epoch 457 started
+Epoch 457, Loss: 0.031725702772140506
+Epoch 458 started
+Epoch 458, Loss: 0.031483600393533706
+Epoch 459 started
+Epoch 459, Loss: 0.031867547760009766
+Epoch 460 started
+Epoch 460, Loss: 0.031489156738519666
+Epoch 461 started
+Epoch 461, Loss: 0.031471157814860345
+Epoch 462 started
+Epoch 462, Loss: 0.031628182093501093
+Epoch 463 started
+Epoch 463, Loss: 0.03231270921945572
+Epoch 464 started
+Epoch 464, Loss: 0.03199866426706314
+Epoch 465 started
+Epoch 465, Loss: 0.03164769688487053
+Epoch 466 started
+Epoch 466, Loss: 0.03203176423072815
+Epoch 467 started
+Epoch 467, Loss: 0.031128647627830505
+Epoch 468 started
+Epoch 468, Loss: 0.03164209169745445
+Epoch 469 started
+Epoch 469, Loss: 0.03173647909402847
+Epoch 470 started
+Epoch 470, Loss: 0.031458733259439466
+Epoch 471 started
+Epoch 471, Loss: 0.031099358804821967
+Epoch 472 started
+Epoch 472, Loss: 0.03172760949850082
+Epoch 473 started
+Epoch 473, Loss: 0.03142685663104057
+Epoch 474 started
+Epoch 474, Loss: 0.03167004342496395
+Epoch 475 started
+Epoch 475, Loss: 0.03170347198963165
+Epoch 476 started
+Epoch 476, Loss: 0.03165125964522362
+Epoch 477 started
+Epoch 477, Loss: 0.030881282240748407
+Epoch 478 started
+Epoch 478, Loss: 0.03161178354203701
+Epoch 479 started
+Epoch 479, Loss: 0.031613045120835306
+Epoch 480 started
+Epoch 480, Loss: 0.030918578538894653
+Epoch 481 started
+Epoch 481, Loss: 0.03152771104931831
+Epoch 482 started
+Epoch 482, Loss: 0.031835802810788155
+Epoch 483 started
+Epoch 483, Loss: 0.03129887566745281
+Epoch 484 started
+Epoch 484, Loss: 0.03133885498166084
+Epoch 485 started
+Epoch 485, Loss: 0.03149600593686104
+Epoch 486 started
+Epoch 486, Loss: 0.03155014932870865
+Epoch 487 started
+Epoch 487, Loss: 0.031934827074408534
+Epoch 488 started
+Epoch 488, Loss: 0.031556951428055764
+Epoch 489 started
+Epoch 489, Loss: 0.03156907747387886
+Epoch 490 started
+Epoch 490, Loss: 0.03192437359213829
+Epoch 491 started
+Epoch 491, Loss: 0.03163154109477997
+Epoch 492 started
+Epoch 492, Loss: 0.03157780795812607
+Epoch 493 started
+Epoch 493, Loss: 0.031294971246123314
+Epoch 494 started
+Epoch 494, Loss: 0.03187287977576256
+Epoch 495 started
+Epoch 495, Loss: 0.03174646338939667
+Epoch 496 started
+Epoch 496, Loss: 0.03183413568139076
+Epoch 497 started
+Epoch 497, Loss: 0.031655092368721965
+Epoch 498 started
+Epoch 498, Loss: 0.03174918940722942
+Epoch 499 started
+Epoch 499, Loss: 0.030991589986085893
+Training complete.
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23247836: <mnist_training> in cluster <dcc> Done
+
+Job <mnist_training> was submitted from host <n-62-12-19> by user <s204427> in cluster <dcc> at Sun Nov 24 16:42:35 2024
+Job was executed on host(s) <4*n-62-12-21>, in queue <gpua100>, as user <s204427> in cluster <dcc> at Sun Nov 24 16:42:35 2024
+</zhome/1a/a/156609> was used as the home directory.
+</zhome/1a/a/156609/project/path> was used as the working directory.
+Started at Sun Nov 24 16:42:35 2024
+Terminated at Sun Nov 24 20:36:04 2024
+Results reported at Sun Nov 24 20:36:04 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# mnist_job.sh
+#!/bin/bash
+#BSUB -J mnist_training           # Job name
+#BSUB -q gpua100                   # Queue name for Tesla A10 GPUs
+#BSUB -gpu "num=1"                # Request 1 GPU in exclusive mode
+#BSUB -n 4                        # Request 4 CPU cores (required)
+#BSUB -R "span[hosts=1]"          # Ensure resources are on a single node
+#BSUB -W 48:00                    # Walltime (1 hour)
+#BSUB -R "rusage[mem=4096]"       # Request 4GB of system memory
+#BSUB -o ./logs/outputLogs/output_%J.log            # Output file
+#BSUB -e ./logs/errorLogs/error_%J.log             # Error file
+
+# Load necessary modules
+module load python3/3.10.12
+module load cuda/12.1
+
+# Set W&B API key (replace with your actual key)
+export WANDB_API_KEY="6ecda4c80f57815b4ff4780014d596e19617454c"
+
+# Activate virtual environment
+source /zhome/1a/a/156609/project/path/.venv/bin/activate
+
+# Run the PyTorch training script
+python3 mainUNet.py
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   13817.00 sec.
+    Max Memory :                                 1193 MB
+    Average Memory :                             1184.10 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15191.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                10
+    Run time :                                   14009 sec.
+    Turnaround time :                            14009 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./logs/errorLogs/error_23247836.log> for stderr output of this job.
+

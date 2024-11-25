@@ -24,7 +24,7 @@ def train_model(score_network, dataset, config, image_shape, log=False, save_mod
         for data, _ in dloader:
             data = data.to(device)
             opt.zero_grad()
-            loss = calc_loss(score_network, data)  # Using simplified calc_loss
+            loss = calc_loss(score_network, data)  
             loss.backward()
             opt.step()
             total_loss += loss.item() * data.shape[0]
