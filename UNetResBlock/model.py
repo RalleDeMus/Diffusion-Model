@@ -1,9 +1,9 @@
 import torch.nn as nn
 import torch
 import torch.nn.functional as F
-from UNetResBlock.blocks import ResBlock, DownBlock, UpBlock, SelfAttention
+from UNetResBlock.blocks import ResBlock, DownBlock, UpBlock, SelfAttention, TimeEmbedding
 from UNetResBlock.alphabeta import compute_linear_beta_schedule, compute_alpha_schedule, compute_alpha_cumulative_product
-
+import math
 import os
 from PIL import Image
 import torchvision.utils as vutils
@@ -72,69 +72,78 @@ class UNet(nn.Module):
             # Conv to go (128,3,32,32)
  
         self.device = device
-        self.time_dim = time_dim
+
+        self.time_embedding_dim = 128  # Or some other dimension
+        self.time_projection_dim = 512
+        self.time_embedder = TimeEmbedding(self.time_embedding_dim, self.time_projection_dim)
+
 
         # Encoder (Downsampling path)
-        self.inc = ResBlock(in_channels, 64, time_dim)  # (b, 64, 32, 32)
-        self.down1 = DownBlock(64, 128, time_dim)         # (b, 128, 16, 16)
+        self.inc = ResBlock(in_channels, 64, self.time_projection_dim)  # (b, 64, 32, 32)
+        self.down1 = DownBlock(64, 128, self.time_projection_dim)         # (b, 128, 16, 16)
         self.attn1 = SelfAttention(128, dim // 2)  # Self-attention after first downblock
-        self.down2 = DownBlock(128, 256, time_dim)        # (b, 256, 8, 8)
+        self.down2 = DownBlock(128, 256, self.time_projection_dim)        # (b, 256, 8, 8)
         self.attn2 = SelfAttention(256, dim // 4)  # Self-attention after second downblock
-        self.down3 = DownBlock(256, 256, time_dim)        # (b, 256, 4, 4)
+        self.down3 = DownBlock(256, 256, self.time_projection_dim)        # (b, 256, 4, 4)
         self.attn3 = SelfAttention(256, dim // 8)  # Self-attention after third downblock
 
         # Bottleneck
-        self.bot1 = ResBlock(256, 512, time_dim)          # (b, 512, 4, 4)
-        self.bot2 = ResBlock(512, 512, time_dim)          # (b, 512, 4, 4)
+        self.bot1 = ResBlock(256, 512, self.time_projection_dim)          # (b, 512, 4, 4)
+        self.bot2 = ResBlock(512, 512, self.time_projection_dim)          # (b, 512, 4, 4)
         self.attn_bot = SelfAttention(512, dim // 8)  # Add self-attention in the bottleneck
-        self.bot3 = ResBlock(512, 256, time_dim)          # (b, 256, 4, 4)
+        self.bot3 = ResBlock(512, 256, self.time_projection_dim)          # (b, 256, 4, 4)
 
         # Decoder (Upsampling path)
-        self.up1 = UpBlock(256, 128, time_dim)             # (b, 128, 8, 8)
+        self.up1 = UpBlock(256, 128, self.time_projection_dim)             # (b, 128, 8, 8)
         self.attn4 = SelfAttention(128, dim // 4)  # Self-attention after first upblock
-        self.up2 = UpBlock(128, 64, time_dim)              # (b, 64, 16, 16)
+        self.up2 = UpBlock(128, 64, self.time_projection_dim)              # (b, 64, 16, 16)
         self.attn5 = SelfAttention(64, dim // 2)  # Self-attention after second upblock
-        self.up3 = UpBlock(64, 64, time_dim)              # (b, 64, 32, 32)
+        self.up3 = UpBlock(64, 64, self.time_projection_dim)              # (b, 64, 32, 32)
 
         # Output layer
         self.outc = nn.Conv2d(64, out_channels, kernel_size=1)  # Final output (b, c_out, 32, 32)
 
 
-    def pos_encoding(self, t):
-        """Generate sinusoidal time embeddings."""
-        inv_freq = 1.0 / (
-            10000 ** (torch.arange(0, self.time_dim // 2, device=t.device).float() / self.time_dim)
-        )
-        pos_enc_a = torch.sin(t * inv_freq)  # No need for `t[:, None]` here, `t` already has the right shape
-        pos_enc_b = torch.cos(t * inv_freq)  # Same for `pos_enc_b`
-        return torch.cat([pos_enc_a, pos_enc_b], dim=-1)
+    
+    def get_timestep_embedding(self, timesteps, embedding_dim):
+        """
+        Sinusoidal embeddings for discrete timesteps.
+        """
+        assert len(timesteps.shape) == 1, "Timesteps should be a 1D tensor"
+        half_dim = embedding_dim // 2
+        emb = math.log(10000) / (half_dim - 1)
+        emb = torch.exp(torch.arange(half_dim, dtype=torch.float32, device=timesteps.device) * -emb)
+        emb = timesteps[:, None].float() * emb[None, :]
+        emb = torch.cat([torch.sin(emb), torch.cos(emb)], dim=1)
+        if embedding_dim % 2 == 1:
+            emb = torch.nn.functional.pad(emb, (0, 1))  # Zero pad to match dimensions
+        return emb
 
     def forward(self, x, t):
-        # Generate positional encoding for time `t`
-        t = t.unsqueeze(-1).type(torch.float).to(self.device)  # Add a new dimension to t
-        t = self.pos_encoding(t)  # (batch_size, time_dim)
+        t_emb = self.get_timestep_embedding(t, self.time_embedding_dim)
+        t_emb = self.time_embedder(t_emb)  # Project embedding
 
         # Encoder
-        x1 = self.inc(x, t)        # (b, 64, 32, 32)
-        x2 = self.down1(x1, t)     # (b, 128, 16, 16)
+        x1 = self.inc(x, t_emb)        # (b, 64, 32, 32)
+        x2 = self.down1(x1, t_emb)     # (b, 128, 16, 16)
         x2 = self.attn1(x2)        # Apply self-attention
-        x3 = self.down2(x2, t)     # (b, 256, 8, 8)
+        x3 = self.down2(x2, t_emb)     # (b, 256, 8, 8)
         x3 = self.attn2(x3)        # Apply self-attention
-        x4 = self.down3(x3, t)     # (b, 256, 4, 4)
+        x4 = self.down3(x3, t_emb)     # (b, 256, 4, 4)
         x4 = self.attn3(x4)        # Apply self-attention
         
         # Bottleneck
-        x = self.bot1(x4, t)      # (b, 512, 4, 4)
-        x = self.bot2(x, t)      # (b, 512, 4, 4)
+        x = self.bot1(x4, t_emb)      # (b, 512, 4, 4)
+        x = self.bot2(x, t_emb)      # (b, 512, 4, 4)
         x = self.attn_bot(x)  # Apply self-attention
-        x = self.bot3(x, t)      # (b, 256, 4, 4)
+        x = self.bot3(x, t_emb)      # (b, 256, 4, 4)
         
         # Decoder path (Upsampling)
-        x = self.up1(x4, x3, t)    # (b, 128, 8, 8)
+        x = self.up1(x4, x3, t_emb)    # (b, 128, 8, 8)
         x = self.attn4(x)           # Apply self-attention
-        x = self.up2(x, x2, t)     # (b, 64, 16, 16)
+        x = self.up2(x, x2, t_emb)     # (b, 64, 16, 16)
         x = self.attn5(x)           # Apply self-attention
-        x = self.up3(x, x1, t)     # (b, 64, 32, 32)
+        x = self.up3(x, x1, t_emb)     # (b, 64, 32, 32)
 
         # Final output
         output = self.outc(x)      # (b, c_out, 32, 32)
@@ -168,7 +177,7 @@ def calc_loss(u_net, x, timesteps=1000):
     x_t = torch.sqrt(alpha_bar_t) * x + torch.sqrt(1 - alpha_bar_t) * noise
     
     # Predict the noise using the score network
-    predicted_noise = u_net(x_t, t / timesteps)
+    predicted_noise = u_net(x_t, t/timesteps)
     
     # Compute the loss as the difference between predicted and actual noise
     loss = torch.mean((predicted_noise - noise) ** 2)
@@ -191,7 +200,7 @@ def generate_samples(u_net, nsamples, image_shape, timesteps=1000):
         alpha_bar_prev = alpha_bar[t - 1] if t > 0 else 1.0
         
         # Predict the noise
-        predicted_noise = u_net(x_t, t_tensor / timesteps).detach()
+        predicted_noise = u_net(x_t, t_tensor/timesteps).detach()
         
         # Reconstruct the mean (mu) of x_{t-1}
         mu = (1 / torch.sqrt(alpha_t)) * (

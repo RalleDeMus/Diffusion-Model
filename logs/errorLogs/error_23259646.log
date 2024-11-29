@@ -1,0 +1,42 @@
+Loaded dependency [python3/3.10.12]: sqlite3/3.42.0
+Loaded module: python3/3.10.12
+
+Loading python3/3.10.12
+  Loading requirement: sqlite3/3.42.0
+Loaded module: cuda/12.1
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: juliuseg (juliuseg-danmarks-tekniske-universitet-dtu). Use `wandb login --relogin` to force relogin
+wandb: Tracking run with wandb version 0.18.6
+wandb: Run data is saved locally in /zhome/1a/a/156609/project/path/wandb/run-20241126_025433-09hicqhu
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run CIFAR 500 epochs
+wandb: ⭐️ View project at https://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/MNIST_wandb
+wandb: 🚀 View run at https://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/MNIST_wandb/runs/09hicqhu
+Traceback (most recent call last):
+  File "/zhome/1a/a/156609/project/path/main.py", line 32, in <module>
+    train_model(model, dataset, config, config["image_shape"],log=logwandb, save_model = save_model, model_name = model_name)
+  File "/zhome/1a/a/156609/project/path/trainers/trainer.py", line 27, in train_model
+    loss = calc_loss(score_network, data)
+  File "/zhome/1a/a/156609/project/path/models/attention_model/attention_model.py", line 125, in calc_loss
+    predicted_noise = score_network(x_t, t / timesteps)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/zhome/1a/a/156609/project/path/models/attention_model/attention_model.py", line 59, in forward
+    x = conv(x)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 554, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/nn/modules/conv.py", line 549, in _conv_forward
+    return F.conv2d(
+RuntimeError: Given groups=1, weight of size [64, 4, 3, 3], expected input[128, 2, 32, 32] to have 4 channels, but got 2 channels instead

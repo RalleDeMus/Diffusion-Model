@@ -1,0 +1,1800 @@
+starting run: MNIST_128084
+Loading training set
+Epoch 0 started
+generating samples
+file name: epoch0
+with samples min: -1.34, samples max: 1.33, avg: -0.81, std: 0.51
+file name: resultOwn
+with samples min: -1.34, samples max: 1.33, avg: -0.81, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 0, Loss: 0.07132342018021477
+Epoch 1 started
+generating samples
+file name: epoch1
+with samples min: -1.18, samples max: 1.27, avg: -0.83, std: 0.53
+file name: resultOwn
+with samples min: -1.18, samples max: 1.27, avg: -0.83, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 1, Loss: 0.0348314197063446
+Epoch 2 started
+generating samples
+file name: epoch2
+with samples min: -1.19, samples max: 1.26, avg: -0.79, std: 0.53
+file name: resultOwn
+with samples min: -1.19, samples max: 1.26, avg: -0.79, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 2, Loss: 0.029151436765436772
+Epoch 3 started
+generating samples
+file name: epoch3
+with samples min: -1.19, samples max: 1.17, avg: -0.83, std: 0.56
+file name: resultOwn
+with samples min: -1.19, samples max: 1.17, avg: -0.83, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 3, Loss: 0.026921503115583348
+Epoch 4 started
+generating samples
+file name: epoch4
+with samples min: -1.12, samples max: 1.13, avg: -0.78, std: 0.55
+file name: resultOwn
+with samples min: -1.12, samples max: 1.13, avg: -0.78, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 4, Loss: 0.024992537655764157
+Epoch 5 started
+generating samples
+file name: epoch5
+with samples min: -1.13, samples max: 1.18, avg: -0.80, std: 0.56
+file name: resultOwn
+with samples min: -1.13, samples max: 1.18, avg: -0.80, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 5, Loss: 0.023608737918513794
+Epoch 6 started
+Epoch 6, Loss: 0.022701452041113818
+Epoch 7 started
+Epoch 7, Loss: 0.022250860483006195
+Epoch 8 started
+Epoch 8, Loss: 0.021685873990809477
+Epoch 9 started
+Epoch 9, Loss: 0.020748730353183215
+Epoch 10 started
+generating samples
+file name: epoch10
+with samples min: -1.11, samples max: 1.11, avg: -0.81, std: 0.51
+file name: resultOwn
+with samples min: -1.11, samples max: 1.11, avg: -0.81, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 10, Loss: 0.020772780146311832
+Epoch 11 started
+Epoch 11, Loss: 0.02029263005543638
+Epoch 12 started
+Epoch 12, Loss: 0.02001979127967799
+Epoch 13 started
+Epoch 13, Loss: 0.019806120945899574
+Epoch 14 started
+Epoch 14, Loss: 0.01937814392066664
+Epoch 15 started
+generating samples
+file name: epoch15
+with samples min: -1.08, samples max: 1.07, avg: -0.83, std: 0.51
+file name: resultOwn
+with samples min: -1.08, samples max: 1.07, avg: -0.83, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 15, Loss: 0.019270040994441066
+Epoch 16 started
+Epoch 16, Loss: 0.019325823151403004
+Epoch 17 started
+Epoch 17, Loss: 0.019013603870239523
+Epoch 18 started
+Epoch 18, Loss: 0.018755969610479144
+Epoch 19 started
+Epoch 19, Loss: 0.01873651952986364
+Epoch 20 started
+generating samples
+file name: epoch20
+with samples min: -1.05, samples max: 1.05, avg: -0.84, std: 0.48
+file name: resultOwn
+with samples min: -1.05, samples max: 1.05, avg: -0.84, std: 0.48
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 20, Loss: 0.018574727524209904
+Epoch 21 started
+Epoch 21, Loss: 0.018347621474553037
+Epoch 22 started
+Epoch 22, Loss: 0.018205840255927155
+Epoch 23 started
+Epoch 23, Loss: 0.018013845334450405
+Epoch 24 started
+Epoch 24, Loss: 0.0181733641160859
+Epoch 25 started
+generating samples
+file name: epoch25
+with samples min: -1.05, samples max: 1.05, avg: -0.79, std: 0.55
+file name: resultOwn
+with samples min: -1.05, samples max: 1.05, avg: -0.79, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 25, Loss: 0.01831065183988324
+Epoch 26 started
+Epoch 26, Loss: 0.017896744911317472
+Epoch 27 started
+Epoch 27, Loss: 0.017874594928489793
+Epoch 28 started
+Epoch 28, Loss: 0.017833227113441184
+Epoch 29 started
+Epoch 29, Loss: 0.01768654141050798
+Epoch 30 started
+generating samples
+file name: epoch30
+with samples min: -1.05, samples max: 1.04, avg: -0.83, std: 0.50
+file name: resultOwn
+with samples min: -1.05, samples max: 1.04, avg: -0.83, std: 0.50
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 30, Loss: 0.017599518053233624
+Epoch 31 started
+Epoch 31, Loss: 0.017440732823477852
+Epoch 32 started
+Epoch 32, Loss: 0.017375335754619706
+Epoch 33 started
+Epoch 33, Loss: 0.01754189669202875
+Epoch 34 started
+Epoch 34, Loss: 0.017412723293458974
+Epoch 35 started
+generating samples
+file name: epoch35
+with samples min: -1.05, samples max: 1.05, avg: -0.81, std: 0.55
+file name: resultOwn
+with samples min: -1.05, samples max: 1.05, avg: -0.81, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 35, Loss: 0.01728776694779043
+Epoch 36 started
+Epoch 36, Loss: 0.017280387009183565
+Epoch 37 started
+Epoch 37, Loss: 0.017320840968026056
+Epoch 38 started
+Epoch 38, Loss: 0.01740499766557305
+Epoch 39 started
+Epoch 39, Loss: 0.017098520124952
+Epoch 40 started
+generating samples
+file name: epoch40
+with samples min: -1.06, samples max: 1.08, avg: -0.84, std: 0.51
+file name: resultOwn
+with samples min: -1.06, samples max: 1.08, avg: -0.84, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 40, Loss: 0.016934748373097844
+Epoch 41 started
+Epoch 41, Loss: 0.017266859714079787
+Epoch 42 started
+Epoch 42, Loss: 0.016972574321208175
+Epoch 43 started
+Epoch 43, Loss: 0.01733351324112327
+Epoch 44 started
+Epoch 44, Loss: 0.017019194190148954
+Epoch 45 started
+generating samples
+file name: epoch45
+with samples min: -1.04, samples max: 1.08, avg: -0.83, std: 0.52
+file name: resultOwn
+with samples min: -1.04, samples max: 1.08, avg: -0.83, std: 0.52
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 45, Loss: 0.017116810421148935
+Epoch 46 started
+Epoch 46, Loss: 0.017089081383413737
+Epoch 47 started
+Epoch 47, Loss: 0.016947841584682464
+Epoch 48 started
+Epoch 48, Loss: 0.01698918600987505
+Epoch 49 started
+Epoch 49, Loss: 0.016956319469544623
+Epoch 50 started
+generating samples
+file name: epoch50
+with samples min: -1.03, samples max: 1.04, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.03, samples max: 1.04, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 50, Loss: 0.017058407742116186
+Epoch 51 started
+Epoch 51, Loss: 0.016879525412012028
+Epoch 52 started
+Epoch 52, Loss: 0.016803057692669057
+Epoch 53 started
+Epoch 53, Loss: 0.016620393349064722
+Epoch 54 started
+Epoch 54, Loss: 0.016910908259727336
+Epoch 55 started
+generating samples
+file name: epoch55
+with samples min: -1.04, samples max: 1.03, avg: -0.86, std: 0.47
+file name: resultOwn
+with samples min: -1.04, samples max: 1.03, avg: -0.86, std: 0.47
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 55, Loss: 0.016716942979781716
+Epoch 56 started
+Epoch 56, Loss: 0.01684573344141245
+Epoch 57 started
+Epoch 57, Loss: 0.016630057405542444
+Epoch 58 started
+Epoch 58, Loss: 0.016671671741538576
+Epoch 59 started
+Epoch 59, Loss: 0.016500130554868115
+Epoch 60 started
+generating samples
+file name: epoch60
+with samples min: -1.05, samples max: 1.03, avg: -0.83, std: 0.51
+file name: resultOwn
+with samples min: -1.05, samples max: 1.03, avg: -0.83, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 60, Loss: 0.016700744645463096
+Epoch 61 started
+Epoch 61, Loss: 0.016470804494840126
+Epoch 62 started
+Epoch 62, Loss: 0.016562734719779756
+Epoch 63 started
+Epoch 63, Loss: 0.016612830923663245
+Epoch 64 started
+Epoch 64, Loss: 0.016606704465768955
+Epoch 65 started
+generating samples
+file name: epoch65
+with samples min: -1.02, samples max: 1.04, avg: -0.82, std: 0.52
+file name: resultOwn
+with samples min: -1.02, samples max: 1.04, avg: -0.82, std: 0.52
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 65, Loss: 0.016611656501337335
+Epoch 66 started
+Epoch 66, Loss: 0.016312233404980767
+Epoch 67 started
+Epoch 67, Loss: 0.01652435222212915
+Epoch 68 started
+Epoch 68, Loss: 0.016683673865817213
+Epoch 69 started
+Epoch 69, Loss: 0.016351478705803554
+Epoch 70 started
+generating samples
+file name: epoch70
+with samples min: -1.03, samples max: 1.03, avg: -0.79, std: 0.57
+file name: resultOwn
+with samples min: -1.03, samples max: 1.03, avg: -0.79, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 70, Loss: 0.016582215562462806
+Epoch 71 started
+Epoch 71, Loss: 0.016430497163423787
+Epoch 72 started
+Epoch 72, Loss: 0.016633725732288978
+Epoch 73 started
+Epoch 73, Loss: 0.016519646258265883
+Epoch 74 started
+Epoch 74, Loss: 0.016370261834727392
+Epoch 75 started
+generating samples
+file name: epoch75
+with samples min: -1.03, samples max: 1.01, avg: -0.81, std: 0.55
+file name: resultOwn
+with samples min: -1.03, samples max: 1.01, avg: -0.81, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 75, Loss: 0.01654395809493683
+Epoch 76 started
+Epoch 76, Loss: 0.01642211022310787
+Epoch 77 started
+Epoch 77, Loss: 0.016309126803720438
+Epoch 78 started
+Epoch 78, Loss: 0.016221588772756083
+Epoch 79 started
+Epoch 79, Loss: 0.016419595728317898
+Epoch 80 started
+generating samples
+file name: epoch80
+with samples min: -1.02, samples max: 1.02, avg: -0.85, std: 0.48
+file name: resultOwn
+with samples min: -1.02, samples max: 1.02, avg: -0.85, std: 0.48
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 80, Loss: 0.01635955494173147
+Epoch 81 started
+Epoch 81, Loss: 0.016412079955968592
+Epoch 82 started
+Epoch 82, Loss: 0.016476007250724015
+Epoch 83 started
+Epoch 83, Loss: 0.016325213682320382
+Epoch 84 started
+Epoch 84, Loss: 0.016306614842679767
+Epoch 85 started
+generating samples
+file name: epoch85
+with samples min: -1.02, samples max: 1.02, avg: -0.80, std: 0.56
+file name: resultOwn
+with samples min: -1.02, samples max: 1.02, avg: -0.80, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 85, Loss: 0.01623317127481655
+Epoch 86 started
+Epoch 86, Loss: 0.016172788427383813
+Epoch 87 started
+Epoch 87, Loss: 0.016439119503729872
+Epoch 88 started
+Epoch 88, Loss: 0.016139575482518584
+Epoch 89 started
+Epoch 89, Loss: 0.016027788935988038
+Epoch 90 started
+generating samples
+file name: epoch90
+with samples min: -1.02, samples max: 1.02, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.02, samples max: 1.02, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 90, Loss: 0.01620758605500062
+Epoch 91 started
+Epoch 91, Loss: 0.016364840343042655
+Epoch 92 started
+Epoch 92, Loss: 0.01630916440045392
+Epoch 93 started
+Epoch 93, Loss: 0.016003764536645676
+Epoch 94 started
+Epoch 94, Loss: 0.016064838731730424
+Epoch 95 started
+generating samples
+file name: epoch95
+with samples min: -1.02, samples max: 1.01, avg: -0.85, std: 0.48
+file name: resultOwn
+with samples min: -1.02, samples max: 1.01, avg: -0.85, std: 0.48
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 95, Loss: 0.0162063993635001
+Epoch 96 started
+Epoch 96, Loss: 0.016354431642426386
+Epoch 97 started
+Epoch 97, Loss: 0.01617375765768466
+Epoch 98 started
+Epoch 98, Loss: 0.016117412192953956
+Epoch 99 started
+Epoch 99, Loss: 0.01611642514721111
+Epoch 100 started
+generating samples
+file name: epoch100
+with samples min: -1.01, samples max: 1.02, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 100, Loss: 0.01615614417747215
+Epoch 101 started
+Epoch 101, Loss: 0.01606483735696033
+Epoch 102 started
+Epoch 102, Loss: 0.016059427397670568
+Epoch 103 started
+Epoch 103, Loss: 0.016332053555934516
+Epoch 104 started
+Epoch 104, Loss: 0.016018228577242957
+Epoch 105 started
+generating samples
+file name: epoch105
+with samples min: -1.01, samples max: 1.01, avg: -0.82, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.82, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 105, Loss: 0.015989520749008213
+Epoch 106 started
+Epoch 106, Loss: 0.0161730024676632
+Epoch 107 started
+Epoch 107, Loss: 0.01614844792915715
+Epoch 108 started
+Epoch 108, Loss: 0.016043014784653982
+Epoch 109 started
+Epoch 109, Loss: 0.016098935642728098
+Epoch 110 started
+generating samples
+file name: epoch110
+with samples min: -1.01, samples max: 1.01, avg: -0.84, std: 0.49
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.84, std: 0.49
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 110, Loss: 0.016218025401510575
+Epoch 111 started
+Epoch 111, Loss: 0.016054064377314516
+Epoch 112 started
+Epoch 112, Loss: 0.01617111647846522
+Epoch 113 started
+Epoch 113, Loss: 0.015971193235229563
+Epoch 114 started
+Epoch 114, Loss: 0.016172755742514575
+Epoch 115 started
+generating samples
+file name: epoch115
+with samples min: -1.01, samples max: 0.99, avg: -0.82, std: 0.51
+file name: resultOwn
+with samples min: -1.01, samples max: 0.99, avg: -0.82, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 115, Loss: 0.01596642998992293
+Epoch 116 started
+Epoch 116, Loss: 0.016136793847989155
+Epoch 117 started
+Epoch 117, Loss: 0.016017757819482573
+Epoch 118 started
+Epoch 118, Loss: 0.015962115122212305
+Epoch 119 started
+Epoch 119, Loss: 0.015984205688591355
+Epoch 120 started
+generating samples
+file name: epoch120
+with samples min: -1.01, samples max: 1.01, avg: -0.75, std: 0.61
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.75, std: 0.61
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 120, Loss: 0.015997344533602395
+Epoch 121 started
+Epoch 121, Loss: 0.015879940530768147
+Epoch 122 started
+Epoch 122, Loss: 0.01593207897025126
+Epoch 123 started
+Epoch 123, Loss: 0.015907318121857115
+Epoch 124 started
+Epoch 124, Loss: 0.016030973123731435
+Epoch 125 started
+generating samples
+file name: epoch125
+with samples min: -1.00, samples max: 1.00, avg: -0.82, std: 0.51
+file name: resultOwn
+with samples min: -1.00, samples max: 1.00, avg: -0.82, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 125, Loss: 0.015938040831574688
+Epoch 126 started
+Epoch 126, Loss: 0.01605256117494018
+Epoch 127 started
+Epoch 127, Loss: 0.01602612437363024
+Epoch 128 started
+Epoch 128, Loss: 0.015959666787474243
+Epoch 129 started
+Epoch 129, Loss: 0.015915525062768547
+Epoch 130 started
+generating samples
+file name: epoch130
+with samples min: -1.01, samples max: 1.02, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 130, Loss: 0.015970646107362377
+Epoch 131 started
+Epoch 131, Loss: 0.01589072158518765
+Epoch 132 started
+Epoch 132, Loss: 0.01593672267706306
+Epoch 133 started
+Epoch 133, Loss: 0.01590207732937954
+Epoch 134 started
+Epoch 134, Loss: 0.015791104291324264
+Epoch 135 started
+generating samples
+file name: epoch135
+with samples min: -1.02, samples max: 1.02, avg: -0.79, std: 0.56
+file name: resultOwn
+with samples min: -1.02, samples max: 1.02, avg: -0.79, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 135, Loss: 0.016052483466488344
+Epoch 136 started
+Epoch 136, Loss: 0.01612705738870082
+Epoch 137 started
+Epoch 137, Loss: 0.01581339432188758
+Epoch 138 started
+Epoch 138, Loss: 0.016021383435637863
+Epoch 139 started
+Epoch 139, Loss: 0.015919822993101896
+Epoch 140 started
+generating samples
+file name: epoch140
+with samples min: -1.02, samples max: 1.01, avg: -0.83, std: 0.52
+file name: resultOwn
+with samples min: -1.02, samples max: 1.01, avg: -0.83, std: 0.52
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 140, Loss: 0.016008547304957002
+Epoch 141 started
+Epoch 141, Loss: 0.016046934785666288
+Epoch 142 started
+Epoch 142, Loss: 0.015944946320520507
+Epoch 143 started
+Epoch 143, Loss: 0.015914373352019874
+Epoch 144 started
+Epoch 144, Loss: 0.01581291290593368
+Epoch 145 started
+generating samples
+file name: epoch145
+with samples min: -1.02, samples max: 1.02, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.02, samples max: 1.02, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 145, Loss: 0.0157969814825941
+Epoch 146 started
+Epoch 146, Loss: 0.016052530663432898
+Epoch 147 started
+Epoch 147, Loss: 0.01596752799881829
+Epoch 148 started
+Epoch 148, Loss: 0.015808343406076786
+Epoch 149 started
+Epoch 149, Loss: 0.015925312924716207
+Epoch 150 started
+generating samples
+file name: epoch150
+with samples min: -1.01, samples max: 1.02, avg: -0.80, std: 0.56
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.80, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 150, Loss: 0.015686070862743588
+Epoch 151 started
+Epoch 151, Loss: 0.015846699879125313
+Epoch 152 started
+Epoch 152, Loss: 0.01588434237352124
+Epoch 153 started
+Epoch 153, Loss: 0.015757356005686302
+Epoch 154 started
+Epoch 154, Loss: 0.015644630060151772
+Epoch 155 started
+generating samples
+file name: epoch155
+with samples min: -1.01, samples max: 1.01, avg: -0.82, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.82, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 155, Loss: 0.015859143509357063
+Epoch 156 started
+Epoch 156, Loss: 0.015754280429195473
+Epoch 157 started
+Epoch 157, Loss: 0.015846987297689474
+Epoch 158 started
+Epoch 158, Loss: 0.015905490112525445
+Epoch 159 started
+Epoch 159, Loss: 0.01586239567178267
+Epoch 160 started
+generating samples
+file name: epoch160
+with samples min: -1.02, samples max: 1.00, avg: -0.78, std: 0.58
+file name: resultOwn
+with samples min: -1.02, samples max: 1.00, avg: -0.78, std: 0.58
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 160, Loss: 0.01573199568826843
+Epoch 161 started
+Epoch 161, Loss: 0.01580020398536214
+Epoch 162 started
+Epoch 162, Loss: 0.015785610069831212
+Epoch 163 started
+Epoch 163, Loss: 0.01595527950425943
+Epoch 164 started
+Epoch 164, Loss: 0.01584326253886576
+Epoch 165 started
+generating samples
+file name: epoch165
+with samples min: -1.01, samples max: 1.01, avg: -0.74, std: 0.62
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.74, std: 0.62
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 165, Loss: 0.015849795327694326
+Epoch 166 started
+Epoch 166, Loss: 0.015751466087169118
+Epoch 167 started
+Epoch 167, Loss: 0.015927744968345873
+Epoch 168 started
+Epoch 168, Loss: 0.015716521874070168
+Epoch 169 started
+Epoch 169, Loss: 0.01590620104195895
+Epoch 170 started
+generating samples
+file name: epoch170
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 170, Loss: 0.01572105773345188
+Epoch 171 started
+Epoch 171, Loss: 0.015659017173780335
+Epoch 172 started
+Epoch 172, Loss: 0.015735499768345443
+Epoch 173 started
+Epoch 173, Loss: 0.015816883759918035
+Epoch 174 started
+Epoch 174, Loss: 0.015524963477419482
+Epoch 175 started
+generating samples
+file name: epoch175
+with samples min: -1.02, samples max: 1.01, avg: -0.81, std: 0.53
+file name: resultOwn
+with samples min: -1.02, samples max: 1.01, avg: -0.81, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 175, Loss: 0.015783708974167154
+Epoch 176 started
+Epoch 176, Loss: 0.015810570881598526
+Epoch 177 started
+Epoch 177, Loss: 0.015579792240151652
+Epoch 178 started
+Epoch 178, Loss: 0.015635747440987162
+Epoch 179 started
+Epoch 179, Loss: 0.015764926780153204
+Epoch 180 started
+generating samples
+file name: epoch180
+with samples min: -1.01, samples max: 1.01, avg: -0.83, std: 0.51
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.83, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 180, Loss: 0.015697860955364174
+Epoch 181 started
+Epoch 181, Loss: 0.015699869336629355
+Epoch 182 started
+Epoch 182, Loss: 0.01565877278783807
+Epoch 183 started
+Epoch 183, Loss: 0.01582249610512345
+Epoch 184 started
+Epoch 184, Loss: 0.0157076896202785
+Epoch 185 started
+generating samples
+file name: epoch185
+with samples min: -1.01, samples max: 1.02, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 185, Loss: 0.015387749168607924
+Epoch 186 started
+Epoch 186, Loss: 0.015659502140901706
+Epoch 187 started
+Epoch 187, Loss: 0.015498428339759509
+Epoch 188 started
+Epoch 188, Loss: 0.015800570438305538
+Epoch 189 started
+Epoch 189, Loss: 0.015710325279721507
+Epoch 190 started
+generating samples
+file name: epoch190
+with samples min: -1.01, samples max: 1.02, avg: -0.82, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.82, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 190, Loss: 0.0157259111614139
+Epoch 191 started
+Epoch 191, Loss: 0.015841306620173985
+Epoch 192 started
+Epoch 192, Loss: 0.015540819968338365
+Epoch 193 started
+Epoch 193, Loss: 0.015634415460681474
+Epoch 194 started
+Epoch 194, Loss: 0.015756483775598032
+Epoch 195 started
+generating samples
+file name: epoch195
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.56
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 195, Loss: 0.01564869941688246
+Epoch 196 started
+Epoch 196, Loss: 0.015781877816275314
+Epoch 197 started
+Epoch 197, Loss: 0.015673520346206646
+Epoch 198 started
+Epoch 198, Loss: 0.015616300828478955
+Epoch 199 started
+Epoch 199, Loss: 0.0158519124901957
+Epoch 200 started
+generating samples
+file name: epoch200
+with samples min: -1.01, samples max: 1.02, avg: -0.86, std: 0.46
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.86, std: 0.46
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 200, Loss: 0.015752517356364817
+Epoch 201 started
+Epoch 201, Loss: 0.01580271908392509
+Epoch 202 started
+Epoch 202, Loss: 0.01562695899164235
+Epoch 203 started
+Epoch 203, Loss: 0.01576296844802521
+Epoch 204 started
+Epoch 204, Loss: 0.015723934351846023
+Epoch 205 started
+generating samples
+file name: epoch205
+with samples min: -1.01, samples max: 1.01, avg: -0.82, std: 0.52
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.82, std: 0.52
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 205, Loss: 0.015625404234285708
+Epoch 206 started
+Epoch 206, Loss: 0.015519982398108199
+Epoch 207 started
+Epoch 207, Loss: 0.015613110563821263
+Epoch 208 started
+Epoch 208, Loss: 0.015537204597835188
+Epoch 209 started
+Epoch 209, Loss: 0.015579741958942678
+Epoch 210 started
+generating samples
+file name: epoch210
+with samples min: -1.01, samples max: 1.00, avg: -0.85, std: 0.47
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.85, std: 0.47
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 210, Loss: 0.015562773997584978
+Epoch 211 started
+Epoch 211, Loss: 0.015845887651322065
+Epoch 212 started
+Epoch 212, Loss: 0.015623496815562249
+Epoch 213 started
+Epoch 213, Loss: 0.015725290616353353
+Epoch 214 started
+Epoch 214, Loss: 0.015463409506336406
+Epoch 215 started
+generating samples
+file name: epoch215
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 215, Loss: 0.015660469344368686
+Epoch 216 started
+Epoch 216, Loss: 0.01573272771747024
+Epoch 217 started
+Epoch 217, Loss: 0.015578484844278406
+Epoch 218 started
+Epoch 218, Loss: 0.015594504133418754
+Epoch 219 started
+Epoch 219, Loss: 0.015679250205004658
+Epoch 220 started
+generating samples
+file name: epoch220
+with samples min: -1.01, samples max: 1.00, avg: -0.77, std: 0.58
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.77, std: 0.58
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 220, Loss: 0.01557413719980805
+Epoch 221 started
+Epoch 221, Loss: 0.015519922251226725
+Epoch 222 started
+Epoch 222, Loss: 0.0155767615881783
+Epoch 223 started
+Epoch 223, Loss: 0.01568410195796578
+Epoch 224 started
+Epoch 224, Loss: 0.01578769061907574
+Epoch 225 started
+generating samples
+file name: epoch225
+with samples min: -1.01, samples max: 1.02, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 225, Loss: 0.015528290935136654
+Epoch 226 started
+Epoch 226, Loss: 0.01573420576530474
+Epoch 227 started
+Epoch 227, Loss: 0.0156717653075854
+Epoch 228 started
+Epoch 228, Loss: 0.01551049297882451
+Epoch 229 started
+Epoch 229, Loss: 0.015660407911296245
+Epoch 230 started
+generating samples
+file name: epoch230
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 230, Loss: 0.015736978475694302
+Epoch 231 started
+Epoch 231, Loss: 0.01560719868320006
+Epoch 232 started
+Epoch 232, Loss: 0.015445418574191907
+Epoch 233 started
+Epoch 233, Loss: 0.015449351202006693
+Epoch 234 started
+Epoch 234, Loss: 0.015539899426477927
+Epoch 235 started
+generating samples
+file name: epoch235
+with samples min: -1.01, samples max: 1.01, avg: -0.83, std: 0.51
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.83, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 235, Loss: 0.015453197789688905
+Epoch 236 started
+Epoch 236, Loss: 0.01551065632921678
+Epoch 237 started
+Epoch 237, Loss: 0.01563164936889101
+Epoch 238 started
+Epoch 238, Loss: 0.01571793938510948
+Epoch 239 started
+Epoch 239, Loss: 0.015577365576944968
+Epoch 240 started
+generating samples
+file name: epoch240
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 240, Loss: 0.01546014171342055
+Epoch 241 started
+Epoch 241, Loss: 0.015532694740151917
+Epoch 242 started
+Epoch 242, Loss: 0.01560877786135232
+Epoch 243 started
+Epoch 243, Loss: 0.01564611300991641
+Epoch 244 started
+Epoch 244, Loss: 0.015508009732873352
+Epoch 245 started
+generating samples
+file name: epoch245
+with samples min: -1.02, samples max: 1.01, avg: -0.78, std: 0.58
+file name: resultOwn
+with samples min: -1.02, samples max: 1.01, avg: -0.78, std: 0.58
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 245, Loss: 0.015476941246125434
+Epoch 246 started
+Epoch 246, Loss: 0.015399164971378115
+Epoch 247 started
+Epoch 247, Loss: 0.01561376350124677
+Epoch 248 started
+Epoch 248, Loss: 0.015664182960435195
+Epoch 249 started
+Epoch 249, Loss: 0.015497289792531066
+Epoch 250 started
+generating samples
+file name: epoch250
+with samples min: -1.03, samples max: 1.01, avg: -0.82, std: 0.53
+file name: resultOwn
+with samples min: -1.03, samples max: 1.01, avg: -0.82, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 250, Loss: 0.015377720769908693
+Epoch 251 started
+Epoch 251, Loss: 0.015634934806989298
+Epoch 252 started
+Epoch 252, Loss: 0.015414024455127892
+Epoch 253 started
+Epoch 253, Loss: 0.01547903328968419
+Epoch 254 started
+Epoch 254, Loss: 0.015466948992400257
+Epoch 255 started
+generating samples
+file name: epoch255
+with samples min: -1.01, samples max: 1.01, avg: -0.77, std: 0.59
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.77, std: 0.59
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 255, Loss: 0.015503966859093419
+Epoch 256 started
+Epoch 256, Loss: 0.01541686485045486
+Epoch 257 started
+Epoch 257, Loss: 0.015418319131213205
+Epoch 258 started
+Epoch 258, Loss: 0.015423081670646314
+Epoch 259 started
+Epoch 259, Loss: 0.015485073461576744
+Epoch 260 started
+generating samples
+file name: epoch260
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 260, Loss: 0.01550360009736485
+Epoch 261 started
+Epoch 261, Loss: 0.01551555341537352
+Epoch 262 started
+Epoch 262, Loss: 0.015511145717567868
+Epoch 263 started
+Epoch 263, Loss: 0.015504419112647022
+Epoch 264 started
+Epoch 264, Loss: 0.015520643129944802
+Epoch 265 started
+generating samples
+file name: epoch265
+with samples min: -1.01, samples max: 1.00, avg: -0.79, std: 0.56
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.79, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 265, Loss: 0.01567488563198734
+Epoch 266 started
+Epoch 266, Loss: 0.015414486833744578
+Epoch 267 started
+Epoch 267, Loss: 0.015571433212470126
+Epoch 268 started
+Epoch 268, Loss: 0.01543045024242666
+Epoch 269 started
+Epoch 269, Loss: 0.015454445202041556
+Epoch 270 started
+generating samples
+file name: epoch270
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 270, Loss: 0.015388432616988818
+Epoch 271 started
+Epoch 271, Loss: 0.015483375157195108
+Epoch 272 started
+Epoch 272, Loss: 0.015361813250515196
+Epoch 273 started
+Epoch 273, Loss: 0.015559209857825879
+Epoch 274 started
+Epoch 274, Loss: 0.015557453335435302
+Epoch 275 started
+generating samples
+file name: epoch275
+with samples min: -1.01, samples max: 1.00, avg: -0.85, std: 0.49
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.85, std: 0.49
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 275, Loss: 0.0154736441059245
+Epoch 276 started
+Epoch 276, Loss: 0.01562896733151542
+Epoch 277 started
+Epoch 277, Loss: 0.015456406208100142
+Epoch 278 started
+Epoch 278, Loss: 0.015430536705586645
+Epoch 279 started
+Epoch 279, Loss: 0.015239393162230651
+Epoch 280 started
+generating samples
+file name: epoch280
+with samples min: -1.01, samples max: 1.00, avg: -0.76, std: 0.61
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.76, std: 0.61
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 280, Loss: 0.015593485813725877
+Epoch 281 started
+Epoch 281, Loss: 0.015465370646781391
+Epoch 282 started
+Epoch 282, Loss: 0.015343487941832453
+Epoch 283 started
+Epoch 283, Loss: 0.015301701412984618
+Epoch 284 started
+Epoch 284, Loss: 0.015442661838674987
+Epoch 285 started
+generating samples
+file name: epoch285
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 285, Loss: 0.015470226747570214
+Epoch 286 started
+Epoch 286, Loss: 0.015394874345097277
+Epoch 287 started
+Epoch 287, Loss: 0.0152936532927884
+Epoch 288 started
+Epoch 288, Loss: 0.01539546709700867
+Epoch 289 started
+Epoch 289, Loss: 0.015479442153263976
+Epoch 290 started
+generating samples
+file name: epoch290
+with samples min: -1.01, samples max: 1.00, avg: -0.86, std: 0.46
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.86, std: 0.46
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 290, Loss: 0.015466318543310518
+Epoch 291 started
+Epoch 291, Loss: 0.015585434943437577
+Epoch 292 started
+Epoch 292, Loss: 0.015530289393332269
+Epoch 293 started
+Epoch 293, Loss: 0.015375978108909396
+Epoch 294 started
+Epoch 294, Loss: 0.015352369342689161
+Epoch 295 started
+generating samples
+file name: epoch295
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 295, Loss: 0.01551416448034622
+Epoch 296 started
+Epoch 296, Loss: 0.015441340340508355
+Epoch 297 started
+Epoch 297, Loss: 0.015469437585384757
+Epoch 298 started
+Epoch 298, Loss: 0.015491548602779707
+Epoch 299 started
+Epoch 299, Loss: 0.015584749458012758
+Epoch 300 started
+generating samples
+file name: epoch300
+with samples min: -1.01, samples max: 1.00, avg: -0.84, std: 0.50
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.84, std: 0.50
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 300, Loss: 0.015271393379127538
+Epoch 301 started
+Epoch 301, Loss: 0.015474567373593649
+Epoch 302 started
+Epoch 302, Loss: 0.015511059129679644
+Epoch 303 started
+Epoch 303, Loss: 0.01563875919773623
+Epoch 304 started
+Epoch 304, Loss: 0.015567828803702636
+Epoch 305 started
+generating samples
+file name: epoch305
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 305, Loss: 0.015454984496313114
+Epoch 306 started
+Epoch 306, Loss: 0.015454915658743294
+Epoch 307 started
+Epoch 307, Loss: 0.015219989981364321
+Epoch 308 started
+Epoch 308, Loss: 0.01549769929078994
+Epoch 309 started
+Epoch 309, Loss: 0.015430397643535225
+Epoch 310 started
+generating samples
+file name: epoch310
+with samples min: -1.01, samples max: 1.02, avg: -0.82, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.82, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 310, Loss: 0.015337587333387798
+Epoch 311 started
+Epoch 311, Loss: 0.015345312418209182
+Epoch 312 started
+Epoch 312, Loss: 0.015466819328014497
+Epoch 313 started
+Epoch 313, Loss: 0.015436189408379573
+Epoch 314 started
+Epoch 314, Loss: 0.01542853623987348
+Epoch 315 started
+generating samples
+file name: epoch315
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.56
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 315, Loss: 0.015285122772609745
+Epoch 316 started
+Epoch 316, Loss: 0.01530862552424272
+Epoch 317 started
+Epoch 317, Loss: 0.015398617265952957
+Epoch 318 started
+Epoch 318, Loss: 0.015564716777867742
+Epoch 319 started
+Epoch 319, Loss: 0.01533376108109951
+Epoch 320 started
+generating samples
+file name: epoch320
+with samples min: -1.01, samples max: 1.01, avg: -0.85, std: 0.48
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.85, std: 0.48
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 320, Loss: 0.01532956858476003
+Epoch 321 started
+Epoch 321, Loss: 0.015330559894994452
+Epoch 322 started
+Epoch 322, Loss: 0.015387947131638173
+Epoch 323 started
+Epoch 323, Loss: 0.015206601515136383
+Epoch 324 started
+Epoch 324, Loss: 0.015270559455233592
+Epoch 325 started
+generating samples
+file name: epoch325
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 325, Loss: 0.015288647147792357
+Epoch 326 started
+Epoch 326, Loss: 0.015439837058109265
+Epoch 327 started
+Epoch 327, Loss: 0.015365182012319565
+Epoch 328 started
+Epoch 328, Loss: 0.015365916894541847
+Epoch 329 started
+Epoch 329, Loss: 0.015321933638718394
+Epoch 330 started
+generating samples
+file name: epoch330
+with samples min: -1.02, samples max: 1.01, avg: -0.80, std: 0.55
+file name: resultOwn
+with samples min: -1.02, samples max: 1.01, avg: -0.80, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 330, Loss: 0.015382749640003399
+Epoch 331 started
+Epoch 331, Loss: 0.015586477258691082
+Epoch 332 started
+Epoch 332, Loss: 0.015442999275194274
+Epoch 333 started
+Epoch 333, Loss: 0.015317027907680582
+Epoch 334 started
+Epoch 334, Loss: 0.015209490426436618
+Epoch 335 started
+generating samples
+file name: epoch335
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 335, Loss: 0.015160605139478488
+Epoch 336 started
+Epoch 336, Loss: 0.01533223325593604
+Epoch 337 started
+Epoch 337, Loss: 0.015237438140643968
+Epoch 338 started
+Epoch 338, Loss: 0.015397740636158872
+Epoch 339 started
+Epoch 339, Loss: 0.01530397328624019
+Epoch 340 started
+generating samples
+file name: epoch340
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 340, Loss: 0.015256028252619284
+Epoch 341 started
+Epoch 341, Loss: 0.015261270486646229
+Epoch 342 started
+Epoch 342, Loss: 0.015342382694836017
+Epoch 343 started
+Epoch 343, Loss: 0.015327628011780756
+Epoch 344 started
+Epoch 344, Loss: 0.01542008007786892
+Epoch 345 started
+generating samples
+file name: epoch345
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 345, Loss: 0.015284003075074267
+Epoch 346 started
+Epoch 346, Loss: 0.015387463405176445
+Epoch 347 started
+Epoch 347, Loss: 0.015261474870697216
+Epoch 348 started
+Epoch 348, Loss: 0.0151660789521756
+Epoch 349 started
+Epoch 349, Loss: 0.015315575898797423
+Epoch 350 started
+generating samples
+file name: epoch350
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 350, Loss: 0.015427377456868136
+Epoch 351 started
+Epoch 351, Loss: 0.015300779339339998
+Epoch 352 started
+Epoch 352, Loss: 0.015369210662665191
+Epoch 353 started
+Epoch 353, Loss: 0.015407308065228992
+Epoch 354 started
+Epoch 354, Loss: 0.015383677675768181
+Epoch 355 started
+generating samples
+file name: epoch355
+with samples min: -1.01, samples max: 1.01, avg: -0.83, std: 0.51
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.83, std: 0.51
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 355, Loss: 0.015178079903953605
+Epoch 356 started
+Epoch 356, Loss: 0.015440791287355952
+Epoch 357 started
+Epoch 357, Loss: 0.015472767634524239
+Epoch 358 started
+Epoch 358, Loss: 0.015429961912058018
+Epoch 359 started
+Epoch 359, Loss: 0.015278979517795421
+Epoch 360 started
+generating samples
+file name: epoch360
+with samples min: -1.01, samples max: 1.00, avg: -0.76, std: 0.60
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.76, std: 0.60
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 360, Loss: 0.01548572205255429
+Epoch 361 started
+Epoch 361, Loss: 0.015402125055315317
+Epoch 362 started
+Epoch 362, Loss: 0.01533903765981948
+Epoch 363 started
+Epoch 363, Loss: 0.015368437162152044
+Epoch 364 started
+Epoch 364, Loss: 0.015227935679532864
+Epoch 365 started
+generating samples
+file name: epoch365
+with samples min: -1.01, samples max: 1.00, avg: -0.82, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.82, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 365, Loss: 0.01538128699583036
+Epoch 366 started
+Epoch 366, Loss: 0.015229162770288962
+Epoch 367 started
+Epoch 367, Loss: 0.015456606885349309
+Epoch 368 started
+Epoch 368, Loss: 0.015318310690146905
+Epoch 369 started
+Epoch 369, Loss: 0.015330225233402517
+Epoch 370 started
+generating samples
+file name: epoch370
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 370, Loss: 0.01519748956296179
+Epoch 371 started
+Epoch 371, Loss: 0.015390769847841174
+Epoch 372 started
+Epoch 372, Loss: 0.015156061797782228
+Epoch 373 started
+Epoch 373, Loss: 0.015308223983203924
+Epoch 374 started
+Epoch 374, Loss: 0.015296255472633575
+Epoch 375 started
+generating samples
+file name: epoch375
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.55
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 375, Loss: 0.015337090232857951
+Epoch 376 started
+Epoch 376, Loss: 0.01530237350695663
+Epoch 377 started
+Epoch 377, Loss: 0.015277808861048132
+Epoch 378 started
+Epoch 378, Loss: 0.015416226644758824
+Epoch 379 started
+Epoch 379, Loss: 0.015400170998440849
+Epoch 380 started
+generating samples
+file name: epoch380
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 380, Loss: 0.015312089071781547
+Epoch 381 started
+Epoch 381, Loss: 0.015148954932888349
+Epoch 382 started
+Epoch 382, Loss: 0.015372941299721046
+Epoch 383 started
+Epoch 383, Loss: 0.015318938705656263
+Epoch 384 started
+Epoch 384, Loss: 0.015279808352114978
+Epoch 385 started
+generating samples
+file name: epoch385
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 385, Loss: 0.01520874904482453
+Epoch 386 started
+Epoch 386, Loss: 0.015438098706305027
+Epoch 387 started
+Epoch 387, Loss: 0.01537238511774275
+Epoch 388 started
+Epoch 388, Loss: 0.015114000853289056
+Epoch 389 started
+Epoch 389, Loss: 0.015214665430563467
+Epoch 390 started
+generating samples
+file name: epoch390
+with samples min: -1.02, samples max: 1.00, avg: -0.84, std: 0.49
+file name: resultOwn
+with samples min: -1.02, samples max: 1.00, avg: -0.84, std: 0.49
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 390, Loss: 0.015225059364128995
+Epoch 391 started
+Epoch 391, Loss: 0.015282792978264667
+Epoch 392 started
+Epoch 392, Loss: 0.01527492817712051
+Epoch 393 started
+Epoch 393, Loss: 0.01508556915488508
+Epoch 394 started
+Epoch 394, Loss: 0.015245568138581736
+Epoch 395 started
+generating samples
+file name: epoch395
+with samples min: -1.01, samples max: 1.02, avg: -0.84, std: 0.50
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.84, std: 0.50
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 395, Loss: 0.015253154515116303
+Epoch 396 started
+Epoch 396, Loss: 0.015274343827808345
+Epoch 397 started
+Epoch 397, Loss: 0.015136396929897643
+Epoch 398 started
+Epoch 398, Loss: 0.015254414325235067
+Epoch 399 started
+Epoch 399, Loss: 0.015309191042626345
+Epoch 400 started
+generating samples
+file name: epoch400
+with samples min: -1.01, samples max: 1.00, avg: -0.76, std: 0.59
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.76, std: 0.59
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 400, Loss: 0.015183044210904174
+Epoch 401 started
+Epoch 401, Loss: 0.015237070752514733
+Epoch 402 started
+Epoch 402, Loss: 0.015270751900143093
+Epoch 403 started
+Epoch 403, Loss: 0.015356865583746522
+Epoch 404 started
+Epoch 404, Loss: 0.015179532767997848
+Epoch 405 started
+generating samples
+file name: epoch405
+with samples min: -1.01, samples max: 1.00, avg: -0.82, std: 0.52
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.82, std: 0.52
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 405, Loss: 0.015179400534817465
+Epoch 406 started
+Epoch 406, Loss: 0.015254935326123679
+Epoch 407 started
+Epoch 407, Loss: 0.01528909033205774
+Epoch 408 started
+Epoch 408, Loss: 0.014985977253428212
+Epoch 409 started
+Epoch 409, Loss: 0.015030483015433506
+Epoch 410 started
+generating samples
+file name: epoch410
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.56
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 410, Loss: 0.015160413109042026
+Epoch 411 started
+Epoch 411, Loss: 0.015181073958123173
+Epoch 412 started
+Epoch 412, Loss: 0.015285535952007328
+Epoch 413 started
+Epoch 413, Loss: 0.015142671064370209
+Epoch 414 started
+Epoch 414, Loss: 0.015317658096551895
+Epoch 415 started
+generating samples
+file name: epoch415
+with samples min: -1.01, samples max: 1.02, avg: -0.81, std: 0.53
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.81, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 415, Loss: 0.015116109726605593
+Epoch 416 started
+Epoch 416, Loss: 0.01517611138412246
+Epoch 417 started
+Epoch 417, Loss: 0.01532188542821893
+Epoch 418 started
+Epoch 418, Loss: 0.015157967037072888
+Epoch 419 started
+Epoch 419, Loss: 0.015249687663658902
+Epoch 420 started
+generating samples
+file name: epoch420
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 420, Loss: 0.01534592207107279
+Epoch 421 started
+Epoch 421, Loss: 0.015078989063700041
+Epoch 422 started
+Epoch 422, Loss: 0.015125663459576942
+Epoch 423 started
+Epoch 423, Loss: 0.0152583863840059
+Epoch 424 started
+Epoch 424, Loss: 0.015198643428859888
+Epoch 425 started
+generating samples
+file name: epoch425
+with samples min: -1.01, samples max: 1.03, avg: -0.79, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.03, avg: -0.79, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 425, Loss: 0.015089568082381178
+Epoch 426 started
+Epoch 426, Loss: 0.015270868543949392
+Epoch 427 started
+Epoch 427, Loss: 0.015173909029474965
+Epoch 428 started
+Epoch 428, Loss: 0.015026690179827037
+Epoch 429 started
+Epoch 429, Loss: 0.015105524037999135
+Epoch 430 started
+generating samples
+file name: epoch430
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 430, Loss: 0.015284258273464663
+Epoch 431 started
+Epoch 431, Loss: 0.015163991138339043
+Epoch 432 started
+Epoch 432, Loss: 0.015265310017599
+Epoch 433 started
+Epoch 433, Loss: 0.015015499264001846
+Epoch 434 started
+Epoch 434, Loss: 0.015232922767047529
+Epoch 435 started
+generating samples
+file name: epoch435
+with samples min: -1.01, samples max: 1.01, avg: -0.84, std: 0.48
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.84, std: 0.48
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 435, Loss: 0.015240120657340244
+Epoch 436 started
+Epoch 436, Loss: 0.015151644607936894
+Epoch 437 started
+Epoch 437, Loss: 0.015157809276823645
+Epoch 438 started
+Epoch 438, Loss: 0.015221457541264869
+Epoch 439 started
+Epoch 439, Loss: 0.015090224945986712
+Epoch 440 started
+generating samples
+file name: epoch440
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.53
+file name: resultOwn
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.53
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 440, Loss: 0.015090253275301722
+Epoch 441 started
+Epoch 441, Loss: 0.015140524315061393
+Epoch 442 started
+Epoch 442, Loss: 0.014947050282800639
+Epoch 443 started
+Epoch 443, Loss: 0.015045712840777856
+Epoch 444 started
+Epoch 444, Loss: 0.014978792340667159
+Epoch 445 started
+generating samples
+file name: epoch445
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.79, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 445, Loss: 0.015105230882763863
+Epoch 446 started
+Epoch 446, Loss: 0.015185641777184275
+Epoch 447 started
+Epoch 447, Loss: 0.015180920832686955
+Epoch 448 started
+Epoch 448, Loss: 0.015209258077321229
+Epoch 449 started
+Epoch 449, Loss: 0.015264613768016851
+Epoch 450 started
+generating samples
+file name: epoch450
+with samples min: -1.01, samples max: 1.00, avg: -0.77, std: 0.59
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.77, std: 0.59
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 450, Loss: 0.015239696371886465
+Epoch 451 started
+Epoch 451, Loss: 0.015082418156442819
+Epoch 452 started
+Epoch 452, Loss: 0.01508789160516527
+Epoch 453 started
+Epoch 453, Loss: 0.015204099204805163
+Epoch 454 started
+Epoch 454, Loss: 0.01513444958296087
+Epoch 455 started
+generating samples
+file name: epoch455
+with samples min: -1.01, samples max: 1.00, avg: -0.79, std: 0.56
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.79, std: 0.56
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 455, Loss: 0.015311216601619014
+Epoch 456 started
+Epoch 456, Loss: 0.015288670608842814
+Epoch 457 started
+Epoch 457, Loss: 0.015017737112111516
+Epoch 458 started
+Epoch 458, Loss: 0.015108054748287907
+Epoch 459 started
+Epoch 459, Loss: 0.015175173360716413
+Epoch 460 started
+generating samples
+file name: epoch460
+with samples min: -1.01, samples max: 1.00, avg: -0.82, std: 0.52
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.82, std: 0.52
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 460, Loss: 0.015067692915046657
+Epoch 461 started
+Epoch 461, Loss: 0.015120487231623243
+Epoch 462 started
+Epoch 462, Loss: 0.015085312935213247
+Epoch 463 started
+Epoch 463, Loss: 0.015084803340611635
+Epoch 464 started
+Epoch 464, Loss: 0.014985101627530875
+Epoch 465 started
+generating samples
+file name: epoch465
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 465, Loss: 0.01524097080528736
+Epoch 466 started
+Epoch 466, Loss: 0.015092119884987673
+Epoch 467 started
+Epoch 467, Loss: 0.015133648055019202
+Epoch 468 started
+Epoch 468, Loss: 0.015046343622936142
+Epoch 469 started
+Epoch 469, Loss: 0.014927797781372511
+Epoch 470 started
+generating samples
+file name: epoch470
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.54
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 470, Loss: 0.015102128078816114
+Epoch 471 started
+Epoch 471, Loss: 0.015321515444528174
+Epoch 472 started
+Epoch 472, Loss: 0.015204488351389213
+Epoch 473 started
+Epoch 473, Loss: 0.015265325023068321
+Epoch 474 started
+Epoch 474, Loss: 0.01525727146256853
+Epoch 475 started
+generating samples
+file name: epoch475
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.80, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 475, Loss: 0.014990785682091006
+Epoch 476 started
+Epoch 476, Loss: 0.015295388598133017
+Epoch 477 started
+Epoch 477, Loss: 0.015056751178094635
+Epoch 478 started
+Epoch 478, Loss: 0.015167855059659039
+Epoch 479 started
+Epoch 479, Loss: 0.015101789060014265
+Epoch 480 started
+generating samples
+file name: epoch480
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: resultOwn
+with samples min: -1.01, samples max: 1.01, avg: -0.78, std: 0.57
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 480, Loss: 0.015130396639859234
+Epoch 481 started
+Epoch 481, Loss: 0.015161021580022794
+Epoch 482 started
+Epoch 482, Loss: 0.015048318469138056
+Epoch 483 started
+Epoch 483, Loss: 0.015104650154985763
+Epoch 484 started
+Epoch 484, Loss: 0.015306799636670837
+Epoch 485 started
+generating samples
+file name: epoch485
+with samples min: -1.01, samples max: 1.02, avg: -0.78, std: 0.58
+file name: resultOwn
+with samples min: -1.01, samples max: 1.02, avg: -0.78, std: 0.58
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 485, Loss: 0.0152181311139354
+Epoch 486 started
+Epoch 486, Loss: 0.015117938221604735
+Epoch 487 started
+Epoch 487, Loss: 0.014929937685529391
+Epoch 488 started
+Epoch 488, Loss: 0.015214806706817062
+Epoch 489 started
+Epoch 489, Loss: 0.015178661710410206
+Epoch 490 started
+generating samples
+file name: epoch490
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.55
+file name: resultOwn
+with samples min: -1.01, samples max: 1.00, avg: -0.80, std: 0.55
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 490, Loss: 0.014946962080344005
+Epoch 491 started
+Epoch 491, Loss: 0.01503305476296831
+Epoch 492 started
+Epoch 492, Loss: 0.015202479590972264
+Epoch 493 started
+Epoch 493, Loss: 0.015202423010711317
+Epoch 494 started
+Epoch 494, Loss: 0.015193643230806898
+Epoch 495 started
+generating samples
+file name: epoch495
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+file name: resultOwn
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+file name: dataset_samples
+with samples min: -1.00, samples max: 1.00, avg: -0.81, std: 0.54
+Epoch 495, Loss: 0.015165635240850624
+Epoch 496 started
+Epoch 496, Loss: 0.015071672632738396
+Epoch 497 started
+Epoch 497, Loss: 0.015286813606266622
+Epoch 498 started
+Epoch 498, Loss: 0.0151433108796676
+Epoch 499 started
+Epoch 499, Loss: 0.015021703043193729
+Training complete.
+[1;34mwandb[0m: 🚀 View run [33mResNetMNIST_128084[0m at: [34mhttps://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/MNIST_wandb/runs/3ruhntrs[0m
+[1;34mwandb[0m: Find logs at: [1;35mwandb/run-20241127_101314-3ruhntrs/logs[0m
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23270596: <mnist_training> in cluster <dcc> Done
+
+Job <mnist_training> was submitted from host <n-62-12-19> by user <s204427> in cluster <dcc> at Wed Nov 27 09:41:01 2024
+Job was executed on host(s) <4*n-62-12-21>, in queue <gpua100>, as user <s204427> in cluster <dcc> at Wed Nov 27 10:13:05 2024
+</zhome/1a/a/156609> was used as the home directory.
+</zhome/1a/a/156609/project/path> was used as the working directory.
+Started at Wed Nov 27 10:13:05 2024
+Terminated at Wed Nov 27 14:28:52 2024
+Results reported at Wed Nov 27 14:28:52 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# mnist_job.sh
+#!/bin/bash
+#BSUB -J mnist_training           # Job name
+#BSUB -q gpua100                   # Queue name for Tesla A10 GPUs
+#BSUB -gpu "num=1"                # Request 1 GPU in exclusive mode
+#BSUB -n 4                        # Request 4 CPU cores (required)
+#BSUB -R "span[hosts=1]"          # Ensure resources are on a single node
+#BSUB -W 48:00                    # Walltime (1 hour)
+#BSUB -R "rusage[mem=4096]"       # Request 4GB of system memory
+#BSUB -o ./logs/outputLogs/output_%J.log            # Output file
+#BSUB -e ./logs/errorLogs/error_%J.log             # Error file
+
+# Load necessary modules
+module load python3/3.10.12
+module load cuda/12.1
+
+# Set W&B API key (replace with your actual key)
+export WANDB_API_KEY="6ecda4c80f57815b4ff4780014d596e19617454c"
+
+# Activate virtual environment
+source /zhome/1a/a/156609/project/path/.venv/bin/activate
+
+# Run the PyTorch training script
+python3 mainUNetResBlock.py
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   15296.00 sec.
+    Max Memory :                                 1333 MB
+    Average Memory :                             1300.18 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15051.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                29
+    Run time :                                   15347 sec.
+    Turnaround time :                            17271 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./logs/errorLogs/error_23270596.log> for stderr output of this job.
+

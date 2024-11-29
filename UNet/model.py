@@ -116,9 +116,7 @@ class UNet(nn.Module):
         # Encoder
         x1 = self.inc(x)        # (b, 64, 32, 32)
         x2 = self.down1(x1, t)     # (b, 128, 16, 16)
-        print(f"down1: {x2.shape}")
         x2 = self.attn1(x2)        # Apply self-attention
-        print(f"attn1: {x2.shape}")
         x3 = self.down2(x2, t)     # (b, 256, 8, 8)
         x3 = self.attn2(x3)        # Apply self-attention
         x4 = self.down3(x3, t)     # (b, 256, 4, 4)

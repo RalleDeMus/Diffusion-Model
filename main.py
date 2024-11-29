@@ -2,18 +2,20 @@ import wandb
 import torch
 import os
 from models.ModelLayers.CIFAR10 import GetEncDecLayers
-from configs.CIFAR10 import config
+from configs.config import config_MNIST, config_CIFAR10, config_CELEBA
 from utils.dataset_loader import load_dataset
 from models.attention_model.attention_model import ScoreNetwork
 from trainers.trainer import train_model
 
+config = config_MNIST
+
 # Initialize W&B
-logwandb = False
+logwandb = True
 
 # Use only small subset of data (for debugging)
-debugDataSize = True
+debugDataSize = False
 
-save_model = False
+save_model = True
 model_name = "CIFARNetwork_500epochs" # File that the model is saved as. Only relevant if save_model = True
 
 

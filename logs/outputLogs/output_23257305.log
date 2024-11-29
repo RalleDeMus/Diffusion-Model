@@ -1,0 +1,675 @@
+starting run: CIFAR10_401843
+Files already downloaded and verified
+Loading training set
+Epoch 0 started
+generating samples
+Epoch 0, Loss: 0.11213819714122349
+Epoch 1 started
+generating samples
+Epoch 1, Loss: 0.05642358735601107
+Epoch 2 started
+generating samples
+Epoch 2, Loss: 0.048833597931596966
+Epoch 3 started
+generating samples
+Epoch 3, Loss: 0.044930874620543584
+Epoch 4 started
+generating samples
+Epoch 4, Loss: 0.042867675695816676
+Epoch 5 started
+generating samples
+Epoch 5, Loss: 0.04199629334873623
+Epoch 6 started
+Epoch 6, Loss: 0.040562326894866094
+Epoch 7 started
+Epoch 7, Loss: 0.03882145674294896
+Epoch 8 started
+Epoch 8, Loss: 0.03853074251777596
+Epoch 9 started
+Epoch 9, Loss: 0.03710205227666431
+Epoch 10 started
+generating samples
+Epoch 10, Loss: 0.037384224936034945
+Epoch 11 started
+Epoch 11, Loss: 0.036717317944433954
+Epoch 12 started
+Epoch 12, Loss: 0.03664766990741094
+Epoch 13 started
+Epoch 13, Loss: 0.0356734771453672
+Epoch 14 started
+Epoch 14, Loss: 0.035913605215152106
+Epoch 15 started
+generating samples
+Epoch 15, Loss: 0.03564701759285397
+Epoch 16 started
+Epoch 16, Loss: 0.035650778509510886
+Epoch 17 started
+Epoch 17, Loss: 0.0350325713786814
+Epoch 18 started
+Epoch 18, Loss: 0.034926945322752
+Epoch 19 started
+Epoch 19, Loss: 0.03479185850189792
+Epoch 20 started
+generating samples
+Epoch 20, Loss: 0.0348480497346984
+Epoch 21 started
+Epoch 21, Loss: 0.03468514444000191
+Epoch 22 started
+Epoch 22, Loss: 0.03416876967284414
+Epoch 23 started
+Epoch 23, Loss: 0.03438578639361593
+Epoch 24 started
+Epoch 24, Loss: 0.03420328024095959
+Epoch 25 started
+generating samples
+Epoch 25, Loss: 0.03431924689610799
+Epoch 26 started
+Epoch 26, Loss: 0.034420185052023995
+Epoch 27 started
+Epoch 27, Loss: 0.0334679070505831
+Epoch 28 started
+Epoch 28, Loss: 0.034076952321330706
+Epoch 29 started
+Epoch 29, Loss: 0.033274105153150026
+Epoch 30 started
+generating samples
+Epoch 30, Loss: 0.03354787844684389
+Epoch 31 started
+Epoch 31, Loss: 0.03386913921766811
+Epoch 32 started
+Epoch 32, Loss: 0.03315776802036497
+Epoch 33 started
+Epoch 33, Loss: 0.0336249633497662
+Epoch 34 started
+Epoch 34, Loss: 0.033500575953722
+Epoch 35 started
+generating samples
+Epoch 35, Loss: 0.033163468787736364
+Epoch 36 started
+Epoch 36, Loss: 0.03361921623448531
+Epoch 37 started
+Epoch 37, Loss: 0.03338123657239808
+Epoch 38 started
+Epoch 38, Loss: 0.033169239922364556
+Epoch 39 started
+Epoch 39, Loss: 0.03339146673944261
+Epoch 40 started
+generating samples
+Epoch 40, Loss: 0.033541951259639526
+Epoch 41 started
+Epoch 41, Loss: 0.03304922503497865
+Epoch 42 started
+Epoch 42, Loss: 0.03377285491625468
+Epoch 43 started
+Epoch 43, Loss: 0.03278977308173974
+Epoch 44 started
+Epoch 44, Loss: 0.032742101732889814
+Epoch 45 started
+generating samples
+Epoch 45, Loss: 0.03278653462065591
+Epoch 46 started
+Epoch 46, Loss: 0.03251644416385227
+Epoch 47 started
+Epoch 47, Loss: 0.03321434827976757
+Epoch 48 started
+Epoch 48, Loss: 0.03282882793015904
+Epoch 49 started
+Epoch 49, Loss: 0.03264016142156389
+Epoch 50 started
+generating samples
+Epoch 50, Loss: 0.032277146801683636
+Epoch 51 started
+Epoch 51, Loss: 0.03274644910958078
+Epoch 52 started
+Epoch 52, Loss: 0.03294508925345209
+Epoch 53 started
+Epoch 53, Loss: 0.03214940451780955
+Epoch 54 started
+Epoch 54, Loss: 0.03252830065753725
+Epoch 55 started
+generating samples
+Epoch 55, Loss: 0.032485426973634296
+Epoch 56 started
+Epoch 56, Loss: 0.032340159221159084
+Epoch 57 started
+Epoch 57, Loss: 0.032756966758436624
+Epoch 58 started
+Epoch 58, Loss: 0.03247280481921302
+Epoch 59 started
+Epoch 59, Loss: 0.033268929577536056
+Epoch 60 started
+generating samples
+Epoch 60, Loss: 0.0325563734140661
+Epoch 61 started
+Epoch 61, Loss: 0.03236453883316782
+Epoch 62 started
+Epoch 62, Loss: 0.0320400892002715
+Epoch 63 started
+Epoch 63, Loss: 0.03226503975523843
+Epoch 64 started
+Epoch 64, Loss: 0.03281717284123103
+Epoch 65 started
+generating samples
+Epoch 65, Loss: 0.032448855151732764
+Epoch 66 started
+Epoch 66, Loss: 0.032153650189439456
+Epoch 67 started
+Epoch 67, Loss: 0.03252594835559527
+Epoch 68 started
+Epoch 68, Loss: 0.031520930514070726
+Epoch 69 started
+Epoch 69, Loss: 0.03269741640223397
+Epoch 70 started
+generating samples
+Epoch 70, Loss: 0.032218760316239464
+Epoch 71 started
+Epoch 71, Loss: 0.03236347924404674
+Epoch 72 started
+Epoch 72, Loss: 0.032001563564605186
+Epoch 73 started
+Epoch 73, Loss: 0.03180825149681833
+Epoch 74 started
+Epoch 74, Loss: 0.03197040279077159
+Epoch 75 started
+generating samples
+Epoch 75, Loss: 0.031985039008988275
+Epoch 76 started
+Epoch 76, Loss: 0.03241539691752857
+Epoch 77 started
+Epoch 77, Loss: 0.03171141735050413
+Epoch 78 started
+Epoch 78, Loss: 0.03169479579329491
+Epoch 79 started
+Epoch 79, Loss: 0.03228026831878556
+Epoch 80 started
+generating samples
+Epoch 80, Loss: 0.03155129200617472
+Epoch 81 started
+Epoch 81, Loss: 0.03183796877331204
+Epoch 82 started
+Epoch 82, Loss: 0.03184899894595146
+Epoch 83 started
+Epoch 83, Loss: 0.031791176313492986
+Epoch 84 started
+Epoch 84, Loss: 0.03221218088136779
+Epoch 85 started
+generating samples
+Epoch 85, Loss: 0.0317703508357207
+Epoch 86 started
+Epoch 86, Loss: 0.03226832289298375
+Epoch 87 started
+Epoch 87, Loss: 0.03142295297582944
+Epoch 88 started
+Epoch 88, Loss: 0.03201657375693321
+Epoch 89 started
+Epoch 89, Loss: 0.0320729109439585
+Epoch 90 started
+generating samples
+Epoch 90, Loss: 0.03178442321154806
+Epoch 91 started
+Epoch 91, Loss: 0.031242937246958414
+Epoch 92 started
+Epoch 92, Loss: 0.031863201626473006
+Epoch 93 started
+Epoch 93, Loss: 0.032285837309890326
+Epoch 94 started
+Epoch 94, Loss: 0.031029751169019276
+Epoch 95 started
+generating samples
+Epoch 95, Loss: 0.03180053610967265
+Epoch 96 started
+Epoch 96, Loss: 0.03170430371065935
+Epoch 97 started
+Epoch 97, Loss: 0.031841260496113036
+Epoch 98 started
+Epoch 98, Loss: 0.03194321237868733
+Epoch 99 started
+Epoch 99, Loss: 0.031672094120581945
+Epoch 100 started
+generating samples
+Epoch 100, Loss: 0.032089437376790576
+Epoch 101 started
+Epoch 101, Loss: 0.03138451458149486
+Epoch 102 started
+Epoch 102, Loss: 0.03181580189731386
+Epoch 103 started
+Epoch 103, Loss: 0.03179181092977524
+Epoch 104 started
+Epoch 104, Loss: 0.0315187532381879
+Epoch 105 started
+generating samples
+Epoch 105, Loss: 0.03208544662197431
+Epoch 106 started
+Epoch 106, Loss: 0.031484362567795646
+Epoch 107 started
+Epoch 107, Loss: 0.03122090058988995
+Epoch 108 started
+Epoch 108, Loss: 0.03150048324134615
+Epoch 109 started
+Epoch 109, Loss: 0.03141743812726604
+Epoch 110 started
+generating samples
+Epoch 110, Loss: 0.03109947961303923
+Epoch 111 started
+Epoch 111, Loss: 0.03141246724062496
+Epoch 112 started
+Epoch 112, Loss: 0.031464696779847146
+Epoch 113 started
+Epoch 113, Loss: 0.03153196515838305
+Epoch 114 started
+Epoch 114, Loss: 0.031716263708803386
+Epoch 115 started
+generating samples
+Epoch 115, Loss: 0.0314694054239326
+Epoch 116 started
+Epoch 116, Loss: 0.03179226954248216
+Epoch 117 started
+Epoch 117, Loss: 0.03161218475368288
+Epoch 118 started
+Epoch 118, Loss: 0.031202907168534067
+Epoch 119 started
+Epoch 119, Loss: 0.03148512626952595
+Epoch 120 started
+generating samples
+Epoch 120, Loss: 0.031366451443566215
+Epoch 121 started
+Epoch 121, Loss: 0.03142505674958229
+Epoch 122 started
+Epoch 122, Loss: 0.03150994391110208
+Epoch 123 started
+Epoch 123, Loss: 0.031510934203863146
+Epoch 124 started
+Epoch 124, Loss: 0.031157691965831652
+Epoch 125 started
+generating samples
+Epoch 125, Loss: 0.03144845938351419
+Epoch 126 started
+Epoch 126, Loss: 0.031000397718615003
+Epoch 127 started
+Epoch 127, Loss: 0.031364889423383606
+Epoch 128 started
+Epoch 128, Loss: 0.03164236336416668
+Epoch 129 started
+Epoch 129, Loss: 0.031244947816265953
+Epoch 130 started
+generating samples
+Epoch 130, Loss: 0.03170356722076734
+Epoch 131 started
+Epoch 131, Loss: 0.030880825506978564
+Epoch 132 started
+Epoch 132, Loss: 0.031435618622104325
+Epoch 133 started
+Epoch 133, Loss: 0.03144552733865049
+Epoch 134 started
+Epoch 134, Loss: 0.031446245656410854
+Epoch 135 started
+generating samples
+Epoch 135, Loss: 0.031533003378245564
+Epoch 136 started
+Epoch 136, Loss: 0.03126637067397436
+Epoch 137 started
+Epoch 137, Loss: 0.030937497618463303
+Epoch 138 started
+Epoch 138, Loss: 0.03214794430534045
+Epoch 139 started
+Epoch 139, Loss: 0.03161498181323211
+Epoch 140 started
+generating samples
+Epoch 140, Loss: 0.03161212887565295
+Epoch 141 started
+Epoch 141, Loss: 0.03130260844694244
+Epoch 142 started
+Epoch 142, Loss: 0.03155644864241282
+Epoch 143 started
+Epoch 143, Loss: 0.030787922392288843
+Epoch 144 started
+Epoch 144, Loss: 0.031263420131140286
+Epoch 145 started
+generating samples
+Epoch 145, Loss: 0.031193218566311732
+Epoch 146 started
+Epoch 146, Loss: 0.03128275850680139
+Epoch 147 started
+Epoch 147, Loss: 0.03155386484099759
+Epoch 148 started
+Epoch 148, Loss: 0.03130033790369829
+Epoch 149 started
+Epoch 149, Loss: 0.030959253167443804
+Epoch 150 started
+generating samples
+Epoch 150, Loss: 0.03129412559270859
+Epoch 151 started
+Epoch 151, Loss: 0.031593562871880004
+Epoch 152 started
+Epoch 152, Loss: 0.031211963626411227
+Epoch 153 started
+Epoch 153, Loss: 0.03172287999126646
+Epoch 154 started
+Epoch 154, Loss: 0.03138666766153442
+Epoch 155 started
+generating samples
+Epoch 155, Loss: 0.031312549210257
+Epoch 156 started
+Epoch 156, Loss: 0.03090238131913874
+Epoch 157 started
+Epoch 157, Loss: 0.030878112137979932
+Epoch 158 started
+Epoch 158, Loss: 0.031080749731593662
+Epoch 159 started
+Epoch 159, Loss: 0.030363838699128894
+Epoch 160 started
+generating samples
+Epoch 160, Loss: 0.03147573748893208
+Epoch 161 started
+Epoch 161, Loss: 0.03106783998840385
+Epoch 162 started
+Epoch 162, Loss: 0.03120776203605864
+Epoch 163 started
+Epoch 163, Loss: 0.031249624573522143
+Epoch 164 started
+Epoch 164, Loss: 0.031184681635432775
+Epoch 165 started
+generating samples
+Epoch 165, Loss: 0.03173373527427514
+Epoch 166 started
+Epoch 166, Loss: 0.031068867512543997
+Epoch 167 started
+Epoch 167, Loss: 0.030787496662802165
+Epoch 168 started
+Epoch 168, Loss: 0.03111989596552319
+Epoch 169 started
+Epoch 169, Loss: 0.03048393621974521
+Epoch 170 started
+generating samples
+Epoch 170, Loss: 0.030988083357612294
+Epoch 171 started
+Epoch 171, Loss: 0.03085485827724139
+Epoch 172 started
+Epoch 172, Loss: 0.03080436807672183
+Epoch 173 started
+Epoch 173, Loss: 0.031208122156394853
+Epoch 174 started
+Epoch 174, Loss: 0.03141134717464447
+Epoch 175 started
+generating samples
+Epoch 175, Loss: 0.03031142577694522
+Epoch 176 started
+Epoch 176, Loss: 0.03146328386267026
+Epoch 177 started
+Epoch 177, Loss: 0.030979362744424078
+Epoch 178 started
+Epoch 178, Loss: 0.03164037665029367
+Epoch 179 started
+Epoch 179, Loss: 0.031182769030663703
+Epoch 180 started
+generating samples
+Epoch 180, Loss: 0.03113636240363121
+Epoch 181 started
+Epoch 181, Loss: 0.031121473631593916
+Epoch 182 started
+Epoch 182, Loss: 0.031225066000885433
+Epoch 183 started
+Epoch 183, Loss: 0.031647615534067156
+Epoch 184 started
+Epoch 184, Loss: 0.031405380498700675
+Epoch 185 started
+generating samples
+Epoch 185, Loss: 0.031168308141496445
+Epoch 186 started
+Epoch 186, Loss: 0.030895338637299007
+Epoch 187 started
+Epoch 187, Loss: 0.0314663362496429
+Epoch 188 started
+Epoch 188, Loss: 0.03049836462173197
+Epoch 189 started
+Epoch 189, Loss: 0.030851975143618055
+Epoch 190 started
+generating samples
+Epoch 190, Loss: 0.031337162580092746
+Epoch 191 started
+Epoch 191, Loss: 0.03146966263651848
+Epoch 192 started
+Epoch 192, Loss: 0.030396558730800948
+Epoch 193 started
+Epoch 193, Loss: 0.03063821571469307
+Epoch 194 started
+Epoch 194, Loss: 0.030497507446342043
+Epoch 195 started
+generating samples
+Epoch 195, Loss: 0.030801777072416412
+Epoch 196 started
+Epoch 196, Loss: 0.03138535650836097
+Epoch 197 started
+Epoch 197, Loss: 0.030568677608834374
+Epoch 198 started
+Epoch 198, Loss: 0.03079827279349168
+Epoch 199 started
+Epoch 199, Loss: 0.030898155966069964
+Epoch 200 started
+generating samples
+Epoch 200, Loss: 0.030922037190198898
+Epoch 201 started
+Epoch 201, Loss: 0.031312830271985795
+Epoch 202 started
+Epoch 202, Loss: 0.03063170874085691
+Epoch 203 started
+Epoch 203, Loss: 0.03129745295345783
+Epoch 204 started
+Epoch 204, Loss: 0.03066719626088937
+Epoch 205 started
+generating samples
+Epoch 205, Loss: 0.031310308116012146
+Epoch 206 started
+Epoch 206, Loss: 0.030832219229473008
+Epoch 207 started
+Epoch 207, Loss: 0.03106546787056658
+Epoch 208 started
+Epoch 208, Loss: 0.03086477738685078
+Epoch 209 started
+Epoch 209, Loss: 0.030698570782939593
+Epoch 210 started
+generating samples
+Epoch 210, Loss: 0.03079329364233547
+Epoch 211 started
+Epoch 211, Loss: 0.030957494847642052
+Epoch 212 started
+Epoch 212, Loss: 0.03090299747188886
+Epoch 213 started
+Epoch 213, Loss: 0.03129681638611687
+Epoch 214 started
+Epoch 214, Loss: 0.03081366337802675
+Epoch 215 started
+generating samples
+Epoch 215, Loss: 0.030762465249167547
+Epoch 216 started
+Epoch 216, Loss: 0.03146316001613935
+Epoch 217 started
+Epoch 217, Loss: 0.03073929772840606
+Epoch 218 started
+Epoch 218, Loss: 0.0315434577928649
+Epoch 219 started
+Epoch 219, Loss: 0.031214811764160792
+Epoch 220 started
+generating samples
+Epoch 220, Loss: 0.03075523380074236
+Epoch 221 started
+Epoch 221, Loss: 0.03070984351204501
+Epoch 222 started
+Epoch 222, Loss: 0.030795407833324538
+Epoch 223 started
+Epoch 223, Loss: 0.030762947200404272
+Epoch 224 started
+Epoch 224, Loss: 0.03047796777619256
+Epoch 225 started
+generating samples
+Epoch 225, Loss: 0.03100529037250413
+Epoch 226 started
+Epoch 226, Loss: 0.03109038449194696
+Epoch 227 started
+Epoch 227, Loss: 0.03071002127031485
+Epoch 228 started
+Epoch 228, Loss: 0.031238079592254428
+Epoch 229 started
+Epoch 229, Loss: 0.03114633593161901
+Epoch 230 started
+generating samples
+Epoch 230, Loss: 0.031031866138511235
+Epoch 231 started
+Epoch 231, Loss: 0.031025385167532497
+Epoch 232 started
+Epoch 232, Loss: 0.03109836567706532
+Epoch 233 started
+Epoch 233, Loss: 0.03119352428217729
+Epoch 234 started
+Epoch 234, Loss: 0.030633953681588173
+Epoch 235 started
+generating samples
+Epoch 235, Loss: 0.030069611752033234
+Epoch 236 started
+Epoch 236, Loss: 0.030639858163396518
+Epoch 237 started
+Epoch 237, Loss: 0.030108946823411517
+Epoch 238 started
+Epoch 238, Loss: 0.030878368838628132
+Epoch 239 started
+Epoch 239, Loss: 0.031041433411836624
+Epoch 240 started
+generating samples
+Epoch 240, Loss: 0.03059341394636366
+Epoch 241 started
+Epoch 241, Loss: 0.030620521093739403
+Epoch 242 started
+Epoch 242, Loss: 0.03079155640800794
+Epoch 243 started
+Epoch 243, Loss: 0.03134322268201245
+Epoch 244 started
+Epoch 244, Loss: 0.030731043820579847
+Epoch 245 started
+generating samples
+Epoch 245, Loss: 0.030477594912052156
+Epoch 246 started
+Epoch 246, Loss: 0.03092361279527346
+Epoch 247 started
+Epoch 247, Loss: 0.030996422038475673
+Epoch 248 started
+Epoch 248, Loss: 0.03117961767580774
+Epoch 249 started
+Epoch 249, Loss: 0.030834485403696696
+Epoch 250 started
+generating samples
+Epoch 250, Loss: 0.030540685246719254
+Epoch 251 started
+Epoch 251, Loss: 0.03089297168287966
+Epoch 252 started
+Epoch 252, Loss: 0.03083963288002544
+Epoch 253 started
+Epoch 253, Loss: 0.030675348244110744
+Epoch 254 started
+Epoch 254, Loss: 0.030544648455911212
+Epoch 255 started
+generating samples
+Epoch 255, Loss: 0.031065669737259546
+Epoch 256 started
+Epoch 256, Loss: 0.0308366313977374
+Epoch 257 started
+Epoch 257, Loss: 0.03042815167042944
+Epoch 258 started
+Epoch 258, Loss: 0.030501188425885308
+Epoch 259 started
+Epoch 259, Loss: 0.03046950481037299
+Epoch 260 started
+generating samples
+Epoch 260, Loss: 0.03079862316581938
+Epoch 261 started
+Epoch 261, Loss: 0.03127480424510108
+Epoch 262 started
+Epoch 262, Loss: 0.03092015037536621
+Epoch 263 started
+Epoch 263, Loss: 0.030087940256463157
+Epoch 264 started
+Epoch 264, Loss: 0.03026363647116555
+Epoch 265 started
+generating samples
+Epoch 265, Loss: 0.030702451782756383
+Epoch 266 started
+Epoch 266, Loss: 0.031173459751738443
+Epoch 267 started
+Epoch 267, Loss: 0.030920871067378255
+Epoch 268 started
+Epoch 268, Loss: 0.030581624201933544
+Epoch 269 started
+Epoch 269, Loss: 0.030303705439302657
+Epoch 270 started
+generating samples
+Epoch 270, Loss: 0.030221328494283887
+Epoch 271 started
+Epoch 271, Loss: 0.030189790121383137
+Epoch 272 started
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 23257305: <mnist_training> in cluster <dcc> Exited
+
+Job <mnist_training> was submitted from host <n-62-12-19> by user <s204427> in cluster <dcc> at Mon Nov 25 18:30:07 2024
+Job was executed on host(s) <4*n-62-18-9>, in queue <gpua100>, as user <s204427> in cluster <dcc> at Mon Nov 25 18:54:33 2024
+</zhome/1a/a/156609> was used as the home directory.
+</zhome/1a/a/156609/project/path> was used as the working directory.
+Started at Mon Nov 25 18:54:33 2024
+Terminated at Mon Nov 25 20:47:16 2024
+Results reported at Mon Nov 25 20:47:16 2024
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+# mnist_job.sh
+#!/bin/bash
+#BSUB -J mnist_training           # Job name
+#BSUB -q gpua100                   # Queue name for Tesla A10 GPUs
+#BSUB -gpu "num=1"                # Request 1 GPU in exclusive mode
+#BSUB -n 4                        # Request 4 CPU cores (required)
+#BSUB -R "span[hosts=1]"          # Ensure resources are on a single node
+#BSUB -W 48:00                    # Walltime (1 hour)
+#BSUB -R "rusage[mem=4096]"       # Request 4GB of system memory
+#BSUB -o ./logs/outputLogs/output_%J.log            # Output file
+#BSUB -e ./logs/errorLogs/error_%J.log             # Error file
+
+# Load necessary modules
+module load python3/3.10.12
+module load cuda/12.1
+
+# Set W&B API key (replace with your actual key)
+export WANDB_API_KEY="6ecda4c80f57815b4ff4780014d596e19617454c"
+
+# Activate virtual environment
+source /zhome/1a/a/156609/project/path/.venv/bin/activate
+
+# Run the PyTorch training script
+python3 mainUNetResBlock.py
+
+------------------------------------------------------------
+
+TERM_OWNER: job killed by owner.
+Exited with exit code 130.
+
+Resource usage summary:
+
+    CPU time :                                   6574.00 sec.
+    Max Memory :                                 1416 MB
+    Average Memory :                             1373.45 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               14968.00 MB
+    Max Swap :                                   -
+    Max Processes :                              6
+    Max Threads :                                27
+    Run time :                                   6764 sec.
+    Turnaround time :                            8229 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <./logs/errorLogs/error_23257305.log> for stderr output of this job.
+

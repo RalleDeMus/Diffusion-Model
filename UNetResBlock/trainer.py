@@ -26,7 +26,7 @@ def train_model(u_net, dataset, config, model_name, log=False, save_model=False)
 
     clear_txt_file(results_txt)
 
-    p_bar = False
+    p_bar = True
 
     for i_epoch in range(config["epochs"]):
         print(f"Epoch {i_epoch} started")
@@ -53,18 +53,20 @@ def train_model(u_net, dataset, config, model_name, log=False, save_model=False)
                 progress_bar.set_postfix(loss=loss.item(), total_loss=total_loss)
 
         avg_loss = total_loss / len(dataset)
-        
+        if log:
+            wandb.log({"loss": avg_loss}, step = i_epoch)
+
         torch.save(u_net.state_dict(), f"UNetResBlock/models/{model_name}ckpt.pt")
 
         if (i_epoch < 5 or i_epoch % 5 == 0):
             print("generating samples")
             # Generate 8 samples after each epoch
-            generated_samples = generate_samples(u_net, nsamples=8, image_shape=image_shape, timesteps=1000)
+            generated_samples = generate_samples(u_net, nsamples=16, image_shape=image_shape, timesteps=1000)
             
             #print_samples_and_data(data, generated_samples)
 
             # Save the generated samples as a row in the specified folder
-            save_samples(generated_samples, save_dir, f"epoch{i_epoch}")
+            save_samples(generated_samples, save_dir, f"epoch{i_epoch}", i_epoch, wandb_log=True)
             save_samples(generated_samples, "/zhome/1a/a/156609/public_html/ShowResults", "resultOwn")
             
             # Save the first 8 images from the dataset
@@ -77,6 +79,88 @@ def train_model(u_net, dataset, config, model_name, log=False, save_model=False)
         print(f"Epoch {i_epoch}, Loss: {avg_loss}")
 
     print("Training complete.")
+
+
+
+
+def save_samples(samples, save_dir, filename, i_epoch=0, wandb_log=False):
+    # Ensure the save directory exists
+    os.makedirs(save_dir, exist_ok=True)
+
+    # Move the samples to CPU if on GPU and scale from [-1, 1] to [0, 1]
+    samples = samples.cpu()
+    # Compute statistics
+    min_val = samples.min().item()
+    max_val = samples.max().item()
+    avg_val = samples.mean().item()
+    std_val = samples.std().item()
+
+    # Print statistics
+    print(f"file name: {filename}")
+    print(f"with samples min: {min_val:.2f}, samples max: {max_val:.2f}, avg: {avg_val:.2f}, std: {std_val:.2f}")
+
+    samples = (samples + 1) / 2  # Scale from [-1, 1] to [0, 1]
+    samples = samples.clamp(0, 1)  # Ensure values are within [0, 1]
+
+    # Save concatenated image as a single PNG file
+    images = []
+    for i in range(samples.shape[0]):
+        img = samples[i].permute(1, 2, 0).clamp(0, 1).numpy() * 255
+        if samples.shape[1] == 1:  # Grayscale
+            img = img[:, :, 0]
+            img = Image.fromarray(img.astype('uint8'), mode='L')
+        elif samples.shape[1] == 3:  # RGB
+            img = Image.fromarray(img.astype('uint8'))
+        else:
+            raise ValueError(f"Unexpected number of channels: {samples.shape[1]}")
+        images.append(img)
+
+    concatenated_image = Image.new(
+        'RGB' if samples.shape[1] == 3 else 'L',
+        (samples.shape[0] * images[0].width, images[0].height)
+    )
+
+    for i, img in enumerate(images):
+        concatenated_image.paste(img, (i * img.width, 0))
+
+    # Save the concatenated image
+    save_path = os.path.join(save_dir, f"{filename}.png")
+    concatenated_image.save(save_path)
+
+    # Optionally log to wandb with matplotlib for grayscale
+    if wandb_log:
+        grid_size = 4  # 4x4 grid
+        num_images = samples.shape[0]
+
+        if samples.shape[1] == 1:  # Grayscale images
+            fig, axes = plt.subplots(grid_size, grid_size, figsize=(8, 8))
+            axes = axes.flatten()  # Flatten the 2D grid of axes for easy iteration
+
+            for i, ax in enumerate(axes):
+                if i < num_images:
+                    img = samples[i][0].cpu().numpy()  # Take the grayscale channel
+                    ax.imshow(1 - img, cmap="Greys")
+                ax.axis("off")  # Turn off axes for all plots, including blanks
+
+            wandb.log({f"GeneratedSamples:": wandb.Image(fig)}, step = i_epoch)
+            plt.close(fig)
+        else:  # RGB images
+            fig, axes = plt.subplots(grid_size, grid_size, figsize=(8, 8))
+            axes = axes.flatten()  # Flatten the 2D grid of axes for easy iteration
+
+            for i, ax in enumerate(axes):
+                if i < num_images:
+                    img = samples[i].permute(1, 2, 0).cpu().numpy()  # Convert from (C, H, W) to (H, W, C)
+                    ax.imshow((img * 255).astype("uint8"))  # Ensure RGB is properly scaled
+                ax.axis("off")  # Turn off axes for all plots, including blanks
+
+            wandb.log({f"GeneratedSamples:": wandb.Image(fig)}, step = i_epoch)
+            plt.close(fig)
+
+    #print(f"Saved samples to {save_path}")
+
+
+
 
 def print_samples_and_data(data, generated_samples):
     # Calculate and print dataset statistics
@@ -98,42 +182,6 @@ def print_samples_and_data(data, generated_samples):
     print(f"Generated Samples Statistics:")
     print(f"  Min: {samples_min}, Max: {samples_max}")
     print(f"  Avg: {samples_mean:.4f}, Std: {samples_std:.4f}")
-
-def save_samples(samples, save_dir, filename):
-    # Ensure the save directory exists
-    os.makedirs(save_dir, exist_ok=True)
-    
-    # Convert each sample (tensor) to a PIL image and arrange them into a row
-    samples = samples.cpu()  # Move the samples to CPU if on GPU
-    samples = (samples + 1) / 2  # Scale from [-1, 1] to [0, 1]
-    samples = samples.clamp(0, 1)  # Ensure values are within [0, 1]
-    
-    images = []
-    
-    for i in range(samples.shape[0]):
-        img = samples[i].permute(1, 2, 0).clamp(0, 1).numpy() * 255  # Convert to image format
-        if samples.shape[1] == 1:  # Check if it's grayscale
-            img = img[:, :, 0]  # Remove the channel dimension
-            img = Image.fromarray(img.astype('uint8'), mode='L')  # Save as grayscale
-        elif samples.shape[1] == 3:  # Check if it's RGB
-            img = Image.fromarray(img.astype('uint8'))  # Save as RGB
-        else:
-            raise ValueError(f"Unexpected number of channels: {samples.shape[1]}")
-        images.append(img)
-
-    # Concatenate all images into a row (horizontally)
-    concatenated_image = Image.new(
-        'RGB' if samples.shape[1] == 3 else 'L', 
-        (samples.shape[0] * images[0].width, images[0].height)
-    )
-    
-    # Paste images into the new concatenated image
-    for i, img in enumerate(images):
-        concatenated_image.paste(img, (i * img.width, 0))
-    
-    # Save the image as a PNG
-    concatenated_image.save(os.path.join(save_dir, f"{filename}.png"))
-
 
 
 def add_line_to_txt(file_path, line):

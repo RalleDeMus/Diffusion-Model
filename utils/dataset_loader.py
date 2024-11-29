@@ -4,8 +4,8 @@ import torchvision.datasets as datasets
 from torch.utils.data import Subset, DataLoader
 import os
 
-
-def load_dataset(config, small_sample=False):
+def load_dataset(config, small_sample=False, validation=False):
+    validationSize = 0.1
     if config["dataset_name"] == "MNIST":
         transform = transforms.Compose([
             transforms.Pad((2, 2, 2, 2), fill=0),  # Adds 2 pixels to each side with black padding
@@ -43,6 +43,18 @@ def load_dataset(config, small_sample=False):
         # Use only the first 100 samples for quick testing
         dataset = Subset(dataset, range(10))
     
+    if validation:
+        dataset_size = len(dataset)
+        val_size = int(validationSize * dataset_size)
+        dataset = Subset(dataset, range(dataset_size - val_size, dataset_size))
+        print ("Loading validation set")
+    else:
+        dataset_size = len(dataset)
+        train_size = int((1-validationSize) * dataset_size)
+        dataset = Subset(dataset, range(0, train_size))
+        print ("Loading training set")
+
+
     return dataset
 
 

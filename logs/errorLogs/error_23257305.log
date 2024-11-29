@@ -1,0 +1,60 @@
+Loaded dependency [python3/3.10.12]: sqlite3/3.42.0
+Loaded module: python3/3.10.12
+
+Loading python3/3.10.12
+  Loading requirement: sqlite3/3.42.0
+Loaded module: cuda/12.1
+wandb: Using wandb-core as the SDK backend.  Please refer to https://wandb.me/wandb-core for more information.
+wandb: Currently logged in as: juliuseg (juliuseg-danmarks-tekniske-universitet-dtu). Use `wandb login --relogin` to force relogin
+wandb: - Waiting for wandb.init()...wandb: \ Waiting for wandb.init()...wandb: Tracking run with wandb version 0.18.6
+wandb: Run data is saved locally in /zhome/1a/a/156609/project/path/wandb/run-20241125_185448-2wm6blci
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run ResNetCIFAR10_401843
+wandb: ⭐️ View project at https://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/CIFAR10_wandb
+wandb: 🚀 View run at https://wandb.ai/juliuseg-danmarks-tekniske-universitet-dtu/CIFAR10_wandb/runs/2wm6blci
+Traceback (most recent call last):
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 757, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 50, in fetch
+    data = self.dataset.__getitems__(possibly_batched_index)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in __getitems__
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 420, in <listcomp>
+    return [self.dataset[self.indices[idx]] for idx in indices]
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torchvision/datasets/cifar.py", line 119, in __getitem__
+    img = self.transform(img)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 95, in __call__
+    img = t(img)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torchvision/transforms/transforms.py", line 137, in __call__
+    return F.to_tensor(pic)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torchvision/transforms/functional.py", line 174, in to_tensor
+    img = img.permute((2, 0, 1)).contiguous()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/zhome/1a/a/156609/project/path/mainUNetResBlock.py", line 40, in <module>
+    train_model(model, dataset, config, model_name=model_name, log=logwandb, save_model = save_model)
+  File "/zhome/1a/a/156609/project/path/UNetResBlock/trainer.py", line 43, in train_model
+    for batch_idx, (data, _) in enumerate(progress_bar):
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 701, in __next__
+    data = self._next_data()
+KeyboardInterrupt
+Exception ignored in atexit callback: <function _start_and_connect_service.<locals>.teardown_atexit at 0x7fb2b0dc70a0>
+Traceback (most recent call last):
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 93, in teardown_atexit
+    conn.teardown(hooks.exit_code)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/service_connection.py", line 210, in teardown
+    self._client.send(
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 215, in send
+    self.send_server_request(server_req)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 157, in send_server_request
+    self._send_message(msg)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 154, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/zhome/1a/a/156609/project/path/.venv/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 132, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
