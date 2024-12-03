@@ -1,18 +1,30 @@
+import sys
 import os
+
+# Add the directory containing the module to the Python path
+external_module_path = "/zhome/1a/a/156609/project/path"
+sys.path.append(external_module_path)
+
 import numpy as np
 import matplotlib.pyplot as plt
+from PIL import Image
+from configs.config import config_CIFAR10, config_CELEBA, config_MNIST
+
+
+config = config_CELEBA
+num_images_to_plot = 500
+
 
 # Configurations
-image_shape = (3, 32, 32)  # Define as (channels, height, width)
-num_images_to_plot = 20
-dataset_name = "CIFAR10"
+image_shape = config["image_shape"]  # Channels, Height, Width
+dataset_name = config["dataset_name"]
 
-input_binary_file = f"generateAndRead/binSamples/CIFAR10_validation_samples.bin"
+input_binary_file = f"generateAndRead/binSamples/model_{dataset_name}_10000samples.bin"
 output_folder = "generateAndRead/plots"
-output_plot_file = os.path.join(output_folder, f"val_first_{num_images_to_plot}_images_in_{dataset_name}.png")
+output_plot_file = os.path.join(output_folder, f"first_{num_images_to_plot}_images_in_{dataset_name}.png")
 
 # Function to read the binary file
-def read_binary_file(file_path, image_shape, num_images):
+def read_binary_file(file_path, image_shape, num_images, val):
     """
     Reads a binary file containing labeled images.
 
@@ -24,8 +36,9 @@ def read_binary_file(file_path, image_shape, num_images):
     Returns:
         np.ndarray: Array of images of shape (num_images, channels, height, width).
     """
+    
     # Bytes per image: 1 byte for label + image data
-    bytes_per_image = 1 + np.prod(image_shape)
+    bytes_per_image =  np.prod(image_shape) + (1 if val else 0)
     with open(file_path, "rb") as f:
         data = np.frombuffer(f.read(), dtype=np.uint8)
     
@@ -43,24 +56,41 @@ def read_binary_file(file_path, image_shape, num_images):
     return np.array(images)
 
 # Read the first images
-images = read_binary_file(input_binary_file, image_shape, num_images_to_plot)
+images = read_binary_file(input_binary_file, image_shape, num_images_to_plot, False)
 
 # Prepare output directory
 os.makedirs(output_folder, exist_ok=True)
 
-# Plot the first images
-fig, axes = plt.subplots(1, num_images_to_plot, figsize=(15, 5))
+# Calculate the grid dimensions
+max_images_per_row = 20
+num_rows = (num_images_to_plot + max_images_per_row - 1) // max_images_per_row  # Round up
+row_width = max_images_per_row * image_shape[2]
+grid_height = num_rows * image_shape[1]
 
-for i, ax in enumerate(axes):
-    if image_shape[0] == 1:
-        ax.imshow(images[i, 0], cmap="gray")
-    elif image_shape[0] == 3:
-        ax.imshow(images[i].transpose(1, 2, 0))
-    ax.axis("off")
-    ax.set_title(f"Image {i+1}")
+# Create the grid
+if image_shape[0] == 1:  # Grayscale
+    grid = np.zeros((grid_height, row_width), dtype=np.uint8)
+else:  # RGB
+    grid = np.zeros((grid_height, row_width, 3), dtype=np.uint8)
 
-plt.tight_layout()
-plt.savefig(output_plot_file)
-plt.close(fig)
+# Fill the grid with images
+for idx, image in enumerate(images):
+    row = idx // max_images_per_row
+    col = idx % max_images_per_row
+    start_y = row * image_shape[1]
+    end_y = start_y + image_shape[1]
+    start_x = col * image_shape[2]
+    end_x = start_x + image_shape[2]
+    if image_shape[0] == 1:  # Grayscale
+        grid[start_y:end_y, start_x:end_x] = image[0]
+    else:  # RGB
+        grid[start_y:end_y, start_x:end_x] = image.transpose(1, 2, 0)
+
+# Save the final grid as a single image
+if image_shape[0] == 1:  # Grayscale
+    Image.fromarray(grid, mode="L").save(output_plot_file)
+else:  # RGB
+    Image.fromarray(grid).save(output_plot_file)
 
 print(f"Plot saved to {output_plot_file}.")
+

@@ -12,9 +12,9 @@ from configs.config import config_CIFAR10, config_CELEBA, config_MNIST
 from UNetResBlock.model import UNet, generate_samples
 
 # Configurations
-config = config_MNIST
-model_filename = "ResNetMNIST_128084ckpt.pt"
-batch_size = 500  # Number of samples to generate per batch
+config = config_CELEBA
+model_filename = "ResNetCELEBA_414974ckpt.pt"
+batch_size = 250  # Number of samples to generate per batch
 num_samples = 10000  # Number of samples to generate
 
 # idk
@@ -24,7 +24,7 @@ image_shape = config["image_shape"]  # Channels, Height, Width
 output_folder = "generateAndRead/binSamples"
 os.makedirs(output_folder, exist_ok=True)
 dataset_name = config["dataset_name"]
-output_binary_file = os.path.join(output_folder, f"model_{dataset_name}_{num_samples}samples.bin")
+output_binary_file = os.path.join(output_folder, f"model_{dataset_name}_{num_samples}samples_int.bin")
 
 # Load the saved model
 model_folder = "savedModels"

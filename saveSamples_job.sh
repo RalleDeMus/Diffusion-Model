@@ -1,11 +1,11 @@
 # mnist_job.sh
 #!/bin/bash
 #BSUB -J mnist_training           # Job name
-#BSUB -q gpua100                   # Queue name for Tesla A10 GPUs
+#BSUB -q gpua10                   # Queue name for Tesla A10 GPUs
 #BSUB -gpu "num=1"                # Request 1 GPU in exclusive mode
 #BSUB -n 4                        # Request 4 CPU cores (required)
 #BSUB -R "span[hosts=1]"          # Ensure resources are on a single node
-#BSUB -W 48:00                    # Walltime (1 hour)
+#BSUB -W 5:00                    # Walltime (1 hour)
 #BSUB -R "rusage[mem=4096]"       # Request 4GB of system memory
 #BSUB -o ./logs/outputLogs/output_%J.log            # Output file
 #BSUB -e ./logs/errorLogs/error_%J.log             # Error file

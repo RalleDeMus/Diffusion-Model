@@ -12,65 +12,6 @@ class UNet(nn.Module):
     def __init__(self, dim = 32, in_channels=3, out_channels=3, time_dim=256, device="cuda"):
         super(UNet, self).__init__()
 
-        # Explanaition:
-            # in channels from rgb
-            # time dimension: number of channels in pos encoding. 
-            # input dimensions: (batch size, in channels, h, w)
-            # Example: (128,3,32,32)
-            # channels: 64, 128, 256, 512, 512
-
-            # A convolution to go from in channels -> 64, (128,64,32,32)
-            
-            # Down:
-                # MaxPooling (128,64,16,16)
-                # Conv with channel change: (128,128,16,16)
-                # GN+SiLU
-                # Time embedding: Linear to go from emb dimensions to out dimensions. 
-                    # t is in (batch size, embeddings (now in out dimensions after linear))
-                    # now we reshape to match batch size, channels, h, w) and add to x!
-                # SiLU
-            # self attention
-            # repeat until (128,256,4,4)
-            
-            # Bottle neck
-            # Conv with channel change: (128,512,4,4)
-            # GN+SiLU
-            # Conv with channel change: (128,512,4,4)
-            # GN+SiLU
-            # Conv with channel change: (128,256,4,4)
-            # GN+SiLU
-
-            # Up:
-                # Upsampling to go to (128,256,8,8)
-                # Taking the 1st last down layer and concatanete it with this to get: (128,512,8,8)
-                # Conv to go to (128,256,8,8)
-                # GN+SiLU
-                # Conv to go to (128,128,8,8)
-                # GN+SiLU
-                # Time embedding
-                # SiLU
-            # Self attention
-            # repeat, demonstrated for purposes:
-                # Upsampling to go to (128,128,16,16)
-                # Taking the 2nd last down layer and concatanete it with this to get: (128,256,16,16)
-                # Conv to go to (128,128,16,16)
-                # GN+SiLU
-                # Conv to go to (128,64,16,16)
-                # GN+SiLU
-                # Time embedding
-                # SiLU
-            # Self attention
-            # repeat, demonstrated for purposes:
-                # Upsampling to go to (128,64,32,32)
-                # Taking the 3th last down layer and concatanete it with this to get: (128,128,32,32)
-                # Conv to go to (128,64,32,32)
-                # GN+SiLU
-                # Conv to go to (128,64,32,32) # no downsampling here
-                # GN+SiLU
-                # Time embedding
-                # SiLU
-            # Conv to go (128,3,32,32)
- 
         self.device = device
 
         self.time_embedding_dim = 128  # Or some other dimension

@@ -94,3 +94,33 @@ class CustomBinaryDataset(torch.utils.data.Dataset):
             pixels = self.transform(pixels)
 
         return pixels, label
+
+
+
+# file_path = "cropped_celeba_bin/data_batch_1"
+
+# # Get the size of the file in bytes
+# file_size = os.path.getsize(file_path)
+
+# # Print the file size
+# print(f"Size of the file '{file_path}': {file_size} bytes")
+
+
+
+
+# Example configuration for CIFAR10
+config = {
+    "dataset_name": "CIFAR10",
+    "image_shape": (3, 32, 32),  # Channels, Height, Width
+}
+
+# Load the dataset (set validation=False for training data or True for validation data)
+dataset = load_dataset(config, small_sample=False, validation=False)
+
+# Create a DataLoader to iterate through the dataset
+data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+# Get the length of the dataset
+dataset_length = len(data_loader.dataset)
+
+print(f"Number of samples in the dataset: {dataset_length}")

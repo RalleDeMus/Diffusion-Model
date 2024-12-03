@@ -7,7 +7,7 @@ from UNetResBlock.model import UNet, compute_alpha_and_alpha_bar, linear_beta_sc
 
 # Function to load the U-Net model
 def load_unet_model(checkpoint_path, device):
-    model = UNet()
+    model = UNet(in_channels=1, out_channels=1)
     checkpoint = torch.load(checkpoint_path, map_location=device)
     model.load_state_dict(checkpoint["model_state_dict"] if "model_state_dict" in checkpoint else checkpoint)
     model.to(device)  # Ensure the model is on the correct device

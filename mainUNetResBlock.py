@@ -7,7 +7,7 @@ from UNetResBlock.model import UNet
 from UNetResBlock.trainer import train_model
 import random
 
-config = config_CIFAR10
+config = config_CELEBA
 
 configDSName = config["dataset_name"]
 name = f"{configDSName}_{random.randint(100000, 1000000)}"
