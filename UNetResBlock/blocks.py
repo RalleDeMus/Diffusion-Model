@@ -55,10 +55,12 @@ class ResBlock(nn.Module):
             nn.SiLU(),
             nn.Dropout(p=0.1),
         )
+        
         self.residual_conv = (
             nn.Conv2d(in_channels, out_channels, kernel_size=1, bias=False)
             if in_channels != out_channels else nn.Identity()
         )
+
         self.activation = nn.SiLU()
         self.time_proj = nn.Linear(time_dim, out_channels)  # Project time embedding
 

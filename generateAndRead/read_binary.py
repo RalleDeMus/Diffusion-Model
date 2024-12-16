@@ -19,9 +19,11 @@ num_images_to_plot = 500
 image_shape = config["image_shape"]  # Channels, Height, Width
 dataset_name = config["dataset_name"]
 
-input_binary_file = f"generateAndRead/binSamples/model_{dataset_name}_10000samples.bin"
+# input_binary_file = f"generateAndRead/binSamples/model_{dataset_name}_10000samples_int.bin"
+input_binary_file = f"generateAndRead/binSamples/model_CELEBA_10000samples_ema.bin"
+
 output_folder = "generateAndRead/plots"
-output_plot_file = os.path.join(output_folder, f"first_{num_images_to_plot}_images_in_{dataset_name}.png")
+output_plot_file = os.path.join(output_folder, f"first_{num_images_to_plot}_images_in_{dataset_name}_ema.png")
 
 # Function to read the binary file
 def read_binary_file(file_path, image_shape, num_images, val):

@@ -20,7 +20,7 @@ logwandb = True
 debugDataSize = False
 modelNameTest = "_smallDS" if debugDataSize else ""
 
-save_model = False
+save_model = True
 model_name = "ResNet"+name+modelNameTest # File that the model is saved as. Only relevant if save_model = True
 
 

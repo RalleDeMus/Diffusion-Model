@@ -23,8 +23,6 @@ def load_dataset(config, small_sample=False, validation=False):
         dataset = datasets.CIFAR10("cifar10", download=True, transform=transform)
 
     elif config["dataset_name"] == "CELEBA":
-        # Path to the Cropped CelebA binary dataset
-        single_file = "cropped_celeba_bin/data_batch_1"
         # Define transformation
         transform = transforms.Compose([
             transforms.Resize((config["image_shape"][1], config["image_shape"][2])),  
@@ -33,8 +31,12 @@ def load_dataset(config, small_sample=False, validation=False):
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),  # Normalize to [-1, 1]
         ])
 
-        # Load CelebA binary dataset
-        dataset = CustomBinaryDataset(bin_file=single_file, img_size=(128, 128), num_channels=3, transform=transform)
+        # Get all data batch files
+        data_batch_dir = "cropped_celeba_bin"
+        batch_files = [os.path.join(data_batch_dir, f) for f in os.listdir(data_batch_dir) if f.startswith("data_batch_")]
+
+        # Load all binary files
+        dataset = CombinedBinaryDataset(bin_files=batch_files, img_size=(128, 128), num_channels=3, transform=transform)
 
     else:
         raise ValueError(f"Dataset {config['dataset_name']} is not supported!")
@@ -47,36 +49,35 @@ def load_dataset(config, small_sample=False, validation=False):
         dataset_size = len(dataset)
         val_size = int(validationSize * dataset_size)
         dataset = Subset(dataset, range(dataset_size - val_size, dataset_size))
-        print ("Loading validation set")
+        print("Loading validation set")
     else:
         dataset_size = len(dataset)
         train_size = int((1-validationSize) * dataset_size)
         dataset = Subset(dataset, range(0, train_size))
-        print ("Loading training set")
-
+        print("Loading training set")
 
     return dataset
 
-
-class CustomBinaryDataset(torch.utils.data.Dataset):
-    def __init__(self, bin_file, img_size, num_channels=3, transform=None):
-        self.bin_file = bin_file  # Path to a single binary file
+class CombinedBinaryDataset(torch.utils.data.Dataset):
+    def __init__(self, bin_files, img_size, num_channels=3, transform=None):
+        self.bin_files = bin_files  # List of binary file paths
         self.img_size = img_size
         self.num_channels = num_channels
         self.samples = []
         self.transform = transform
 
-        # Read the batch into memory
-        file_size = os.path.getsize(self.bin_file)
-        sample_size = 1 + num_channels * img_size[0] * img_size[1]  # 1 byte label + pixel data
-        num_samples = file_size // sample_size
+        # Read all batches into memory
+        for bin_file in self.bin_files:
+            file_size = os.path.getsize(bin_file)
+            sample_size = 1 + num_channels * img_size[0] * img_size[1]  # 1 byte label + pixel data
+            num_samples = file_size // sample_size
 
-        print(f"Loading {num_samples} samples from {self.bin_file}")
+            #print(f"Loading {num_samples} samples from {bin_file}")
 
-        with open(self.bin_file, "rb") as f:
-            for _ in range(num_samples):
-                raw = f.read(sample_size)
-                self.samples.append(raw)
+            with open(bin_file, "rb") as f:
+                for _ in range(num_samples):
+                    raw = f.read(sample_size)
+                    self.samples.append(raw)
 
     def __len__(self):
         return len(self.samples)
@@ -97,6 +98,29 @@ class CustomBinaryDataset(torch.utils.data.Dataset):
 
 
 
+
+
+
+# # Example configuration for CIFAR10
+# config = {
+#     "dataset_name": "CELEBA",
+#     "image_shape": (3, 64, 64),  # Channels, Height, Width
+# }
+
+# # Load the dataset (set validation=False for training data or True for validation data)
+# dataset = load_dataset(config, small_sample=False, validation=False)
+
+# # Create a DataLoader to iterate through the dataset
+# data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
+
+# # Get the length of the dataset
+# dataset_length = len(data_loader.dataset)
+
+# print(f"Number of samples in the dataset: {dataset_length}")
+
+
+
+
 # file_path = "cropped_celeba_bin/data_batch_1"
 
 # # Get the size of the file in bytes
@@ -105,22 +129,3 @@ class CustomBinaryDataset(torch.utils.data.Dataset):
 # # Print the file size
 # print(f"Size of the file '{file_path}': {file_size} bytes")
 
-
-
-
-# Example configuration for CIFAR10
-config = {
-    "dataset_name": "CIFAR10",
-    "image_shape": (3, 32, 32),  # Channels, Height, Width
-}
-
-# Load the dataset (set validation=False for training data or True for validation data)
-dataset = load_dataset(config, small_sample=False, validation=False)
-
-# Create a DataLoader to iterate through the dataset
-data_loader = DataLoader(dataset, batch_size=32, shuffle=True)
-
-# Get the length of the dataset
-dataset_length = len(data_loader.dataset)
-
-print(f"Number of samples in the dataset: {dataset_length}")

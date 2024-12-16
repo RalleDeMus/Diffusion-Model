@@ -7,7 +7,9 @@
 /UNet/results/
 /UNet/models
 /cropped_celeba_bin/
+/cropped_celeb_dataBatches_rest/
 /UNetResBlock/results/
 /UNetResBlock/models
 /Diffusion/
 /cropped-celeba.zip
+/logs

@@ -9,7 +9,7 @@ from PIL import Image
 import torchvision.utils as vutils
 
 class UNet(nn.Module):
-    def __init__(self, dim = 32, in_channels=3, out_channels=3, time_dim=256, device="cuda"):
+    def __init__(self, dim=32, in_channels=3, out_channels=3, time_dim=256, device="cuda"):
         super(UNet, self).__init__()
 
         self.device = device
@@ -18,32 +18,33 @@ class UNet(nn.Module):
         self.time_projection_dim = 512
         self.time_embedder = TimeEmbedding(self.time_embedding_dim, self.time_projection_dim)
 
-
         # Encoder (Downsampling path)
         self.inc = ResBlock(in_channels, 64, self.time_projection_dim)  # (b, 64, 32, 32)
-        self.down1 = DownBlock(64, 128, self.time_projection_dim)         # (b, 128, 16, 16)
-        self.attn1 = SelfAttention(128, dim // 2)  # Self-attention after first downblock
-        self.down2 = DownBlock(128, 256, self.time_projection_dim)        # (b, 256, 8, 8)
-        self.attn2 = SelfAttention(256, dim // 4)  # Self-attention after second downblock
-        self.down3 = DownBlock(256, 256, self.time_projection_dim)        # (b, 256, 4, 4)
-        self.attn3 = SelfAttention(256, dim // 8)  # Self-attention after third downblock
+        self.down1 = DownBlock(64, 128, self.time_projection_dim)       # (b, 128, 16, 16)
+        self.attn1 = SelfAttention(128, dim // 2)
+        self.down2 = DownBlock(128, 256, self.time_projection_dim)      # (b, 256, 8, 8)
+        self.attn2 = SelfAttention(256, dim // 4)
+        self.down3 = DownBlock(256, 512, self.time_projection_dim)      # (b, 512, 4, 4)
+        self.attn3 = SelfAttention(512, dim // 8)
+        self.down4 = DownBlock(512, 1024, self.time_projection_dim)     # (b, 1024, 2, 2)
 
         # Bottleneck
-        self.bot1 = ResBlock(256, 512, self.time_projection_dim)          # (b, 512, 4, 4)
-        self.bot2 = ResBlock(512, 512, self.time_projection_dim)          # (b, 512, 4, 4)
-        self.attn_bot = SelfAttention(512, dim // 8)  # Add self-attention in the bottleneck
-        self.bot3 = ResBlock(512, 256, self.time_projection_dim)          # (b, 256, 4, 4)
+        self.bot1 = ResBlock(1024, 1024, self.time_projection_dim)      # (b, 1024, 2, 2)
+        self.bot2 = ResBlock(1024, 1024, self.time_projection_dim)      # (b, 1024, 2, 2)
+        self.attn_bot = SelfAttention(1024, dim // 16)
+        self.bot3 = ResBlock(1024, 512, self.time_projection_dim)       # (b, 512, 2, 2)
 
         # Decoder (Upsampling path)
-        self.up1 = UpBlock(256, 128, self.time_projection_dim)             # (b, 128, 8, 8)
-        self.attn4 = SelfAttention(128, dim // 4)  # Self-attention after first upblock
-        self.up2 = UpBlock(128, 64, self.time_projection_dim)              # (b, 64, 16, 16)
-        self.attn5 = SelfAttention(64, dim // 2)  # Self-attention after second upblock
-        self.up3 = UpBlock(64, 64, self.time_projection_dim)              # (b, 64, 32, 32)
+        self.up1 = UpBlock(512, 256, self.time_projection_dim)          # (b, 256, 4, 4)
+        self.attn4 = SelfAttention(256, dim // 8)
+        self.up2 = UpBlock(256, 128, self.time_projection_dim)          # (b, 128, 8, 8)
+        self.attn5 = SelfAttention(128, dim // 4)
+        self.up3 = UpBlock(128, 64, self.time_projection_dim)           # (b, 64, 16, 16)
+        self.attn6 = SelfAttention(64, dim // 2)
+        self.up4 = UpBlock(64, 64, self.time_projection_dim)            # (b, 64, 32, 32)
 
         # Output layer
-        self.outc = nn.Conv2d(64, out_channels, kernel_size=1)  # Final output (b, c_out, 32, 32)
-
+        self.outc = nn.Conv2d(64, out_channels, kernel_size=1)          # Final output (b, c_out, 32, 32)
 
     
     def get_timestep_embedding(self, timesteps, embedding_dim):
@@ -59,35 +60,38 @@ class UNet(nn.Module):
         if embedding_dim % 2 == 1:
             emb = torch.nn.functional.pad(emb, (0, 1))  # Zero pad to match dimensions
         return emb
-
+        
     def forward(self, x, t):
         t_emb = self.get_timestep_embedding(t, self.time_embedding_dim)
         t_emb = self.time_embedder(t_emb)  # Project embedding
 
         # Encoder
-        x1 = self.inc(x, t_emb)        # (b, 64, 32, 32)
-        x2 = self.down1(x1, t_emb)     # (b, 128, 16, 16)
-        x2 = self.attn1(x2)        # Apply self-attention
-        x3 = self.down2(x2, t_emb)     # (b, 256, 8, 8)
-        x3 = self.attn2(x3)        # Apply self-attention
-        x4 = self.down3(x3, t_emb)     # (b, 256, 4, 4)
-        x4 = self.attn3(x4)        # Apply self-attention
+        x1 = self.inc(x, t_emb)            # (b, 64, 32, 32)
+        x2 = self.down1(x1, t_emb)         # (b, 128, 16, 16)
+        x2 = self.attn1(x2)
+        x3 = self.down2(x2, t_emb)         # (b, 256, 8, 8)
+        x3 = self.attn2(x3)
+        x4 = self.down3(x3, t_emb)         # (b, 512, 4, 4)
+        x4 = self.attn3(x4)
+        x5 = self.down4(x4, t_emb)         # (b, 1024, 2, 2)
         
         # Bottleneck
-        x = self.bot1(x4, t_emb)      # (b, 512, 4, 4)
-        x = self.bot2(x, t_emb)      # (b, 512, 4, 4)
-        x = self.attn_bot(x)  # Apply self-attention
-        x = self.bot3(x, t_emb)      # (b, 256, 4, 4)
-        
+        x = self.bot1(x5, t_emb)           # (b, 1024, 2, 2)
+        x = self.bot2(x, t_emb)           # (b, 1024, 2, 2)
+        x = self.attn_bot(x)
+        x = self.bot3(x, t_emb)           # (b, 512, 2, 2)
+
         # Decoder path (Upsampling)
-        x = self.up1(x4, x3, t_emb)    # (b, 128, 8, 8)
-        x = self.attn4(x)           # Apply self-attention
-        x = self.up2(x, x2, t_emb)     # (b, 64, 16, 16)
-        x = self.attn5(x)           # Apply self-attention
-        x = self.up3(x, x1, t_emb)     # (b, 64, 32, 32)
+        x = self.up1(x, x4, t_emb)         # (b, 256, 4, 4)
+        x = self.attn4(x)
+        x = self.up2(x, x3, t_emb)         # (b, 128, 8, 8)
+        x = self.attn5(x)
+        x = self.up3(x, x2, t_emb)         # (b, 64, 16, 16)
+        x = self.attn6(x)
+        x = self.up4(x, x1, t_emb)         # (b, 64, 32, 32)
 
         # Final output
-        output = self.outc(x)      # (b, c_out, 32, 32)
+        output = self.outc(x)              # (b, c_out, 32, 32)
         return output
 
 
