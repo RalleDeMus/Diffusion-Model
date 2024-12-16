@@ -16,3 +16,4 @@
 /generateAndRead/binSamples/
 *.log
 *.pt
+*.npy
