@@ -13,3 +13,6 @@
 /Diffusion/
 /cropped-celeba.zip
 /logs
+/generateAndRead/binSamples/
+*.log
+*.pt
