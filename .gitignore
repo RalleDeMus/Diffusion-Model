@@ -13,7 +13,9 @@
 /Diffusion/
 /cropped-celeba.zip
 /logs
-/generateAndRead/binSamples/
-*.log
-*.pt
+
+output/activations_real.npy
 *.npy
+*.pt
+generateAndRead/binSamples/
+savedModels/
